@@ -1,0 +1,1 @@
+python progressive_recons_test.py --load_pretrain=recons_progressive5_mlp

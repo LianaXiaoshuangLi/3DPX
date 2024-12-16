@@ -1,0 +1,17 @@
+# Capture 3D view into PNG file with transparent background
+# Set background to black (required for transparent background)
+view = slicer.app.layoutManager().threeDWidget(0).threeDView()
+view.mrmlViewNode().SetBackgroundColor(0,0,0)
+view.mrmlViewNode().SetBackgroundColor2(0,0,0)
+view.forceRender()
+# Capture RGBA image
+view = slicer.app.layoutManager().threeDWidget(0).threeDView()
+renderWindow = view.renderWindow()
+renderWindow.SetAlphaBitPlanes(1)
+wti = vtk.vtkWindowToImageFilter()
+wti.SetInputBufferTypeToRGBA()
+wti.SetInput(renderWindow)
+writer = vtk.vtkPNGWriter()
+writer.SetFileName("/home/lixiaodian/med/3DPX/img/lesion/screenshot.png")
+writer.SetInputConnection(wti.GetOutputPort())
+writer.Write()

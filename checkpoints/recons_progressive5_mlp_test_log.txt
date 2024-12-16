@@ -1,0 +1,4 @@
+TEST: PSNR: 16.844, DICE: 63.184, SSIM: 77.823, overall: 75.076
+psnr, dice, ssim: 16.84, 63.18, 77.82
+TEST: PSNR: 16.844, DICE: 63.184, SSIM: 77.823, overall: 75.076
+psnr, dice, ssim: 16.84, 63.18, 77.82

@@ -1,0 +1,1253 @@
+================ Training Loss (Tue Feb 27 09:00:43 2024) ================
+name=recons_progressive5_mlp, gpu_ids=[0], checkpoints_dir=./checkpoints, model=progressive5_mlp, norm=instance, use_dropout=False, data_type=32, verbose=False, fp16=False, local_rank=0, batchSize=8, loadSize=256, fineSize=512, label_nc=1, input_nc=150, output_nc=150, dataroot=./datasets/, resize_or_crop=scale_width, serial_batches=False, no_flip=False, nThreads=1, max_dataset_size=inf, display_winsize=512, tf_log=False, netG=global, ngf=64, n_downsample_global=4, n_blocks_global=9, n_blocks_local=3, n_local_enhancers=1, niter_fix_global=0, no_instance=False, instance_feat=False, label_feat=False, feat_num=3, load_features=False, n_downsample_E=4, nef=16, n_clusters=10, display_freq=100, print_freq=200.0, save_latest_freq=1000, save_epoch_freq=10, no_html=False, debug=False, continue_train=False, load_pretrain=, which_epoch=latest, phase=train, niter=100, niter_decay=100, beta1=0.5, lr=0.0004, weight_decay=5e-05, step_size=10, num_D=2, n_layers_D=3, ndf=64, lambda_feat=10.0, no_ganFeat_loss=False, no_vgg_loss=False, no_lsgan=False, pool_size=0, txt_file=None, seg_2D=None, seg_3D=None, dim=None, num_classes=None, joint=False, three=False, isTrain=True
+(epoch: 1, iters: 200, time: 7.586s) loss: 1325941.375 
+(epoch: 1, iters: 400, time: 7.320s) loss: 776544.750 
+(epoch: 1, iters: 600, time: 8.232s) loss: 632562.688 
+(epoch: 1, iters: 800, time: 10.539s) loss: 345253.688 
+(epoch: 1, iters: 1000, time: 10.564s) loss: 542728.500 
+lr:0.000400 PSNR: 12.591, DICE: 24.737, SSIM: 43.067, overall: 43.587
+saving recons model at the end of epoch 1, iters 1032
+(epoch: 2, iters: 170, time: 42.062s) loss: 260067.688 
+(epoch: 2, iters: 370, time: 14.266s) loss: 457124.469 
+(epoch: 2, iters: 570, time: 12.443s) loss: 388524.094 
+(epoch: 2, iters: 770, time: 14.247s) loss: 582411.312 
+(epoch: 2, iters: 970, time: 13.103s) loss: 409946.969 
+lr:0.000400 PSNR: 13.984, DICE: 28.962, SSIM: 60.838, overall: 53.240
+saving recons model at the end of epoch 2, iters 2064
+(epoch: 3, iters: 140, time: 43.632s) loss: 474976.375 
+(epoch: 3, iters: 340, time: 14.804s) loss: 348579.406 
+(epoch: 3, iters: 540, time: 13.485s) loss: 346072.031 
+(epoch: 3, iters: 740, time: 13.472s) loss: 648644.250 
+(epoch: 3, iters: 940, time: 14.348s) loss: 300567.312 
+lr:0.000400 PSNR: 13.443, DICE: 24.661, SSIM: 57.136, overall: 49.672
+(epoch: 4, iters: 110, time: 42.223s) loss: 234132.703 
+(epoch: 4, iters: 310, time: 14.467s) loss: 265754.469 
+(epoch: 4, iters: 510, time: 14.241s) loss: 210468.188 
+(epoch: 4, iters: 710, time: 14.280s) loss: 209383.938 
+(epoch: 4, iters: 910, time: 14.845s) loss: 556351.500 
+lr:0.000400 PSNR: 13.897, DICE: 29.540, SSIM: 60.156, overall: 53.060
+(epoch: 5, iters: 80, time: 42.864s) loss: 282719.031 
+(epoch: 5, iters: 280, time: 13.381s) loss: 413597.000 
+(epoch: 5, iters: 480, time: 14.579s) loss: 484524.938 
+(epoch: 5, iters: 680, time: 13.529s) loss: 275882.562 
+(epoch: 5, iters: 880, time: 14.605s) loss: 193907.734 
+lr:0.000400 PSNR: 14.212, DICE: 26.877, SSIM: 65.256, overall: 54.398
+saving recons model at the end of epoch 5, iters 5152
+(epoch: 6, iters: 50, time: 42.455s) loss: 262662.000 
+(epoch: 6, iters: 250, time: 13.605s) loss: 437522.875 
+(epoch: 6, iters: 450, time: 14.667s) loss: 309109.438 
+(epoch: 6, iters: 650, time: 12.155s) loss: 274787.781 
+(epoch: 6, iters: 850, time: 14.487s) loss: 258515.828 
+lr:0.000400 PSNR: 14.199, DICE: 27.540, SSIM: 65.255, overall: 54.597
+saving recons model at the end of epoch 6, iters 6184
+(epoch: 7, iters: 20, time: 42.568s) loss: 260899.656 
+(epoch: 7, iters: 220, time: 14.013s) loss: 199585.188 
+(epoch: 7, iters: 420, time: 14.530s) loss: 202575.875 
+(epoch: 7, iters: 620, time: 11.462s) loss: 332334.062 
+(epoch: 7, iters: 820, time: 14.635s) loss: 451851.531 
+(epoch: 7, iters: 1020, time: 12.427s) loss: 295290.156 
+lr:0.000400 PSNR: 14.282, DICE: 26.756, SSIM: 65.740, overall: 54.636
+saving recons model at the end of epoch 7, iters 7216
+(epoch: 8, iters: 190, time: 42.310s) loss: 288783.625 
+(epoch: 8, iters: 390, time: 14.815s) loss: 301283.250 
+(epoch: 8, iters: 590, time: 13.170s) loss: 207484.891 
+(epoch: 8, iters: 790, time: 14.522s) loss: 222793.141 
+(epoch: 8, iters: 990, time: 13.322s) loss: 310768.344 
+lr:0.000400 PSNR: 14.295, DICE: 27.883, SSIM: 66.227, overall: 55.195
+saving recons model at the end of epoch 8, iters 8240
+(epoch: 9, iters: 160, time: 43.762s) loss: 250466.234 
+(epoch: 9, iters: 360, time: 14.576s) loss: 391343.406 
+(epoch: 9, iters: 560, time: 13.318s) loss: 242789.812 
+(epoch: 9, iters: 760, time: 13.665s) loss: 221062.672 
+(epoch: 9, iters: 960, time: 14.192s) loss: 546285.875 
+lr:0.000400 PSNR: 13.826, DICE: 26.378, SSIM: 63.716, overall: 53.075
+(epoch: 10, iters: 130, time: 41.035s) loss: 386302.500 
+(epoch: 10, iters: 330, time: 13.698s) loss: 250276.797 
+(epoch: 10, iters: 530, time: 15.045s) loss: 229563.188 
+(epoch: 10, iters: 730, time: 12.179s) loss: 263064.969 
+(epoch: 10, iters: 930, time: 14.656s) loss: 290045.125 
+lr:0.000400 PSNR: 14.309, DICE: 32.002, SSIM: 66.480, overall: 56.676
+saving recons model at the end of epoch 10, iters 10304
+(epoch: 11, iters: 100, time: 41.177s) loss: 256066.484 
+(epoch: 11, iters: 300, time: 13.678s) loss: 399451.094 
+(epoch: 11, iters: 500, time: 14.863s) loss: 212963.000 
+(epoch: 11, iters: 700, time: 12.881s) loss: 295121.281 
+(epoch: 11, iters: 900, time: 14.961s) loss: 208188.172 
+lr:0.000400 PSNR: 14.243, DICE: 31.696, SSIM: 65.792, overall: 56.235
+(epoch: 12, iters: 70, time: 43.120s) loss: 242892.984 
+(epoch: 12, iters: 270, time: 14.357s) loss: 348059.406 
+(epoch: 12, iters: 470, time: 15.027s) loss: 320360.688 
+(epoch: 12, iters: 670, time: 13.877s) loss: 164095.297 
+(epoch: 12, iters: 870, time: 14.291s) loss: 202353.469 
+lr:0.000400 PSNR: 14.204, DICE: 31.592, SSIM: 66.450, overall: 56.355
+(epoch: 13, iters: 40, time: 43.804s) loss: 438436.375 
+(epoch: 13, iters: 240, time: 15.354s) loss: 271391.094 
+(epoch: 13, iters: 440, time: 14.097s) loss: 212033.188 
+(epoch: 13, iters: 640, time: 12.617s) loss: 521323.094 
+(epoch: 13, iters: 840, time: 15.415s) loss: 482157.875 
+lr:0.000400 PSNR: 14.148, DICE: 28.215, SSIM: 65.922, overall: 54.959
+(epoch: 14, iters: 10, time: 42.233s) loss: 217195.938 
+(epoch: 14, iters: 210, time: 13.429s) loss: 485950.000 
+(epoch: 14, iters: 410, time: 15.180s) loss: 225489.312 
+(epoch: 14, iters: 610, time: 13.579s) loss: 188377.484 
+(epoch: 14, iters: 810, time: 14.665s) loss: 235199.703 
+(epoch: 14, iters: 1010, time: 13.802s) loss: 209434.047 
+lr:0.000400 PSNR: 14.001, DICE: 29.169, SSIM: 65.714, overall: 54.963
+(epoch: 15, iters: 180, time: 43.655s) loss: 182098.797 
+(epoch: 15, iters: 380, time: 14.664s) loss: 448801.375 
+(epoch: 15, iters: 580, time: 11.963s) loss: 221127.672 
+(epoch: 15, iters: 780, time: 14.415s) loss: 195885.266 
+(epoch: 15, iters: 980, time: 13.515s) loss: 293471.062 
+lr:0.000400 PSNR: 14.329, DICE: 35.965, SSIM: 66.866, overall: 58.158
+saving recons model at the end of epoch 15, iters 15456
+(epoch: 16, iters: 150, time: 44.188s) loss: 360531.469 
+(epoch: 16, iters: 350, time: 14.620s) loss: 214878.203 
+(epoch: 16, iters: 550, time: 12.116s) loss: 546467.000 
+(epoch: 16, iters: 750, time: 13.887s) loss: 186725.188 
+(epoch: 16, iters: 950, time: 13.875s) loss: 260893.625 
+lr:0.000400 PSNR: 13.783, DICE: 30.318, SSIM: 60.539, overall: 53.257
+(epoch: 17, iters: 120, time: 41.655s) loss: 187818.531 
+(epoch: 17, iters: 320, time: 14.449s) loss: 297411.344 
+(epoch: 17, iters: 520, time: 13.259s) loss: 276183.406 
+(epoch: 17, iters: 720, time: 13.840s) loss: 163305.062 
+(epoch: 17, iters: 920, time: 14.661s) loss: 277974.781 
+lr:0.000400 PSNR: 12.730, DICE: 25.048, SSIM: 52.607, overall: 47.102
+(epoch: 18, iters: 90, time: 41.239s) loss: 241856.078 
+(epoch: 18, iters: 290, time: 15.764s) loss: 215775.391 
+(epoch: 18, iters: 490, time: 13.428s) loss: 396004.312 
+(epoch: 18, iters: 690, time: 14.315s) loss: 279159.438 
+(epoch: 18, iters: 890, time: 15.249s) loss: 369709.656 
+lr:0.000400 PSNR: 14.508, DICE: 32.526, SSIM: 68.824, overall: 57.963
+(epoch: 19, iters: 60, time: 41.396s) loss: 249098.281 
+(epoch: 19, iters: 260, time: 15.821s) loss: 168390.188 
+(epoch: 19, iters: 460, time: 13.391s) loss: 191388.203 
+(epoch: 19, iters: 660, time: 14.160s) loss: 180403.984 
+(epoch: 19, iters: 860, time: 14.619s) loss: 175298.047 
+lr:0.000400 PSNR: 14.476, DICE: 33.241, SSIM: 68.164, overall: 57.928
+(epoch: 20, iters: 30, time: 41.227s) loss: 180564.984 
+(epoch: 20, iters: 230, time: 15.818s) loss: 326651.719 
+(epoch: 20, iters: 430, time: 14.086s) loss: 187606.516 
+(epoch: 20, iters: 630, time: 14.778s) loss: 177953.750 
+(epoch: 20, iters: 830, time: 14.743s) loss: 187921.406 
+(epoch: 20, iters: 1030, time: 12.986s) loss: 175391.562 
+lr:0.000400 PSNR: 14.583, DICE: 32.565, SSIM: 68.063, overall: 57.848
+(epoch: 21, iters: 200, time: 15.041s) loss: 162495.312 
+(epoch: 21, iters: 400, time: 12.910s) loss: 693531.688 
+(epoch: 21, iters: 600, time: 13.392s) loss: 269127.812 
+(epoch: 21, iters: 800, time: 15.378s) loss: 167047.203 
+(epoch: 21, iters: 1000, time: 14.432s) loss: 221651.672 
+lr:0.000400 PSNR: 14.600, DICE: 32.007, SSIM: 68.122, overall: 57.710
+(epoch: 22, iters: 170, time: 43.220s) loss: 181246.281 
+(epoch: 22, iters: 370, time: 13.559s) loss: 164414.141 
+(epoch: 22, iters: 570, time: 13.509s) loss: 212355.281 
+(epoch: 22, iters: 770, time: 15.761s) loss: 175009.750 
+(epoch: 22, iters: 970, time: 14.762s) loss: 189447.734 
+lr:0.000400 PSNR: 14.462, DICE: 33.514, SSIM: 68.231, overall: 58.019
+(epoch: 23, iters: 140, time: 41.116s) loss: 189943.578 
+(epoch: 23, iters: 340, time: 15.001s) loss: 208368.406 
+(epoch: 23, iters: 540, time: 13.620s) loss: 383923.906 
+(epoch: 23, iters: 740, time: 15.489s) loss: 188621.969 
+(epoch: 23, iters: 940, time: 14.009s) loss: 190725.594 
+lr:0.000400 PSNR: 14.668, DICE: 30.864, SSIM: 68.132, overall: 57.446
+(epoch: 24, iters: 110, time: 42.666s) loss: 212681.625 
+(epoch: 24, iters: 310, time: 14.590s) loss: 376555.312 
+(epoch: 24, iters: 510, time: 11.811s) loss: 225951.109 
+(epoch: 24, iters: 710, time: 14.598s) loss: 280278.125 
+(epoch: 24, iters: 910, time: 13.500s) loss: 196779.938 
+lr:0.000400 PSNR: 13.385, DICE: 36.248, SSIM: 59.837, overall: 54.337
+(epoch: 25, iters: 80, time: 42.227s) loss: 257128.031 
+(epoch: 25, iters: 280, time: 14.689s) loss: 327552.375 
+(epoch: 25, iters: 480, time: 12.655s) loss: 326439.094 
+(epoch: 25, iters: 680, time: 14.465s) loss: 269989.344 
+(epoch: 25, iters: 880, time: 13.429s) loss: 260583.984 
+lr:0.000400 PSNR: 14.260, DICE: 32.552, SSIM: 67.066, overall: 56.973
+(epoch: 26, iters: 50, time: 42.337s) loss: 233494.906 
+(epoch: 26, iters: 250, time: 13.981s) loss: 265085.750 
+(epoch: 26, iters: 450, time: 13.787s) loss: 178161.516 
+(epoch: 26, iters: 650, time: 14.245s) loss: 162250.250 
+(epoch: 26, iters: 850, time: 14.616s) loss: 267991.875 
+lr:0.000400 PSNR: 14.680, DICE: 31.387, SSIM: 69.227, overall: 58.005
+(epoch: 27, iters: 20, time: 41.164s) loss: 174484.812 
+(epoch: 27, iters: 220, time: 14.828s) loss: 178853.500 
+(epoch: 27, iters: 420, time: 14.328s) loss: 248260.594 
+(epoch: 27, iters: 620, time: 13.219s) loss: 423973.281 
+(epoch: 27, iters: 820, time: 14.563s) loss: 202988.484 
+(epoch: 27, iters: 1020, time: 13.732s) loss: 129155.172 
+lr:0.000400 PSNR: 14.570, DICE: 32.274, SSIM: 68.748, overall: 57.957
+(epoch: 28, iters: 190, time: 43.665s) loss: 154660.000 
+(epoch: 28, iters: 390, time: 13.784s) loss: 198754.922 
+(epoch: 28, iters: 590, time: 13.647s) loss: 186304.938 
+(epoch: 28, iters: 790, time: 15.244s) loss: 237756.266 
+(epoch: 28, iters: 990, time: 13.537s) loss: 316741.406 
+lr:0.000400 PSNR: 14.657, DICE: 33.264, SSIM: 68.657, overall: 58.402
+saving recons model at the end of epoch 28, iters 28840
+(epoch: 29, iters: 160, time: 40.746s) loss: 191182.906 
+(epoch: 29, iters: 360, time: 14.646s) loss: 160753.031 
+(epoch: 29, iters: 560, time: 13.204s) loss: 223096.906 
+(epoch: 29, iters: 760, time: 14.489s) loss: 511603.125 
+(epoch: 29, iters: 960, time: 13.202s) loss: 163467.625 
+lr:0.000400 PSNR: 14.643, DICE: 35.047, SSIM: 69.446, overall: 59.236
+saving recons model at the end of epoch 29, iters 29872
+(epoch: 30, iters: 130, time: 41.492s) loss: 169951.797 
+(epoch: 30, iters: 330, time: 14.515s) loss: 173759.578 
+(epoch: 30, iters: 530, time: 12.908s) loss: 180845.531 
+(epoch: 30, iters: 730, time: 14.989s) loss: 161334.281 
+(epoch: 30, iters: 930, time: 14.419s) loss: 148283.312 
+lr:0.000400 PSNR: 14.359, DICE: 31.917, SSIM: 67.817, overall: 57.176
+(epoch: 31, iters: 100, time: 42.208s) loss: 188656.250 
+(epoch: 31, iters: 300, time: 14.655s) loss: 178252.828 
+(epoch: 31, iters: 500, time: 13.022s) loss: 227830.453 
+(epoch: 31, iters: 700, time: 14.487s) loss: 196160.531 
+(epoch: 31, iters: 900, time: 13.799s) loss: 201386.875 
+lr:0.000400 PSNR: 14.712, DICE: 32.705, SSIM: 69.407, overall: 58.557
+(epoch: 32, iters: 70, time: 44.445s) loss: 245726.719 
+(epoch: 32, iters: 270, time: 14.946s) loss: 161806.172 
+(epoch: 32, iters: 470, time: 12.485s) loss: 196928.016 
+(epoch: 32, iters: 670, time: 13.855s) loss: 222402.734 
+(epoch: 32, iters: 870, time: 13.665s) loss: 244996.547 
+lr:0.000400 PSNR: 14.679, DICE: 35.676, SSIM: 69.215, overall: 59.429
+saving recons model at the end of epoch 32, iters 32960
+(epoch: 33, iters: 40, time: 43.553s) loss: 162382.562 
+(epoch: 33, iters: 240, time: 14.137s) loss: 191396.641 
+(epoch: 33, iters: 440, time: 13.749s) loss: 141808.562 
+(epoch: 33, iters: 640, time: 13.026s) loss: 635192.625 
+(epoch: 33, iters: 840, time: 14.495s) loss: 340328.312 
+lr:0.000400 PSNR: 14.645, DICE: 35.625, SSIM: 69.390, overall: 59.413
+(epoch: 34, iters: 10, time: 40.729s) loss: 151197.578 
+(epoch: 34, iters: 210, time: 13.562s) loss: 147134.797 
+(epoch: 34, iters: 410, time: 14.609s) loss: 221355.062 
+(epoch: 34, iters: 610, time: 13.337s) loss: 128331.797 
+(epoch: 34, iters: 810, time: 14.873s) loss: 167774.484 
+(epoch: 34, iters: 1010, time: 14.088s) loss: 154019.406 
+lr:0.000400 PSNR: 14.670, DICE: 35.844, SSIM: 69.553, overall: 59.582
+saving recons model at the end of epoch 34, iters 35024
+(epoch: 35, iters: 180, time: 40.962s) loss: 148422.828 
+(epoch: 35, iters: 380, time: 14.760s) loss: 206894.203 
+(epoch: 35, iters: 580, time: 13.099s) loss: 153172.094 
+(epoch: 35, iters: 780, time: 14.328s) loss: 147921.969 
+(epoch: 35, iters: 980, time: 13.219s) loss: 141281.609 
+lr:0.000400 PSNR: 14.699, DICE: 35.112, SSIM: 69.464, overall: 59.357
+(epoch: 36, iters: 150, time: 42.728s) loss: 194840.625 
+(epoch: 36, iters: 350, time: 15.044s) loss: 194178.422 
+(epoch: 36, iters: 550, time: 13.499s) loss: 141375.734 
+(epoch: 36, iters: 750, time: 14.026s) loss: 324344.156 
+(epoch: 36, iters: 950, time: 14.321s) loss: 191653.969 
+lr:0.000400 PSNR: 14.567, DICE: 36.416, SSIM: 69.187, overall: 59.479
+(epoch: 37, iters: 120, time: 41.122s) loss: 169989.109 
+(epoch: 37, iters: 320, time: 14.756s) loss: 149012.312 
+(epoch: 37, iters: 520, time: 14.022s) loss: 140018.438 
+(epoch: 37, iters: 720, time: 12.734s) loss: 162022.859 
+(epoch: 37, iters: 920, time: 15.301s) loss: 218390.656 
+lr:0.000400 PSNR: 14.514, DICE: 33.057, SSIM: 68.807, overall: 58.145
+(epoch: 38, iters: 90, time: 41.526s) loss: 139944.000 
+(epoch: 38, iters: 290, time: 13.264s) loss: 246753.156 
+(epoch: 38, iters: 490, time: 15.432s) loss: 158228.422 
+(epoch: 38, iters: 690, time: 12.634s) loss: 173105.250 
+(epoch: 38, iters: 890, time: 14.529s) loss: 186186.281 
+lr:0.000400 PSNR: 14.514, DICE: 39.795, SSIM: 68.972, overall: 60.446
+saving recons model at the end of epoch 38, iters 39144
+(epoch: 39, iters: 60, time: 41.451s) loss: 174245.000 
+(epoch: 39, iters: 260, time: 14.418s) loss: 245379.375 
+(epoch: 39, iters: 460, time: 14.802s) loss: 224292.266 
+(epoch: 39, iters: 660, time: 12.910s) loss: 156471.625 
+(epoch: 39, iters: 860, time: 14.782s) loss: 178330.938 
+lr:0.000200 PSNR: 14.661, DICE: 35.484, SSIM: 69.525, overall: 59.438
+(epoch: 40, iters: 30, time: 40.120s) loss: 131901.656 
+(epoch: 40, iters: 230, time: 14.128s) loss: 207708.578 
+(epoch: 40, iters: 430, time: 15.455s) loss: 176040.844 
+(epoch: 40, iters: 630, time: 13.743s) loss: 130084.070 
+(epoch: 40, iters: 830, time: 14.511s) loss: 145953.266 
+(epoch: 40, iters: 1030, time: 14.598s) loss: 136785.781 
+lr:0.000200 PSNR: 14.318, DICE: 35.211, SSIM: 68.148, overall: 58.317
+(epoch: 41, iters: 200, time: 14.771s) loss: 227438.984 
+(epoch: 41, iters: 400, time: 15.664s) loss: 272173.594 
+(epoch: 41, iters: 600, time: 13.906s) loss: 175709.109 
+(epoch: 41, iters: 800, time: 14.028s) loss: 196665.844 
+(epoch: 41, iters: 1000, time: 14.155s) loss: 148509.688 
+lr:0.000200 PSNR: 14.862, DICE: 36.094, SSIM: 70.290, overall: 60.232
+(epoch: 42, iters: 170, time: 43.282s) loss: 183963.406 
+(epoch: 42, iters: 370, time: 15.445s) loss: 137384.344 
+(epoch: 42, iters: 570, time: 13.782s) loss: 161743.094 
+(epoch: 42, iters: 770, time: 13.779s) loss: 144532.797 
+(epoch: 42, iters: 970, time: 14.513s) loss: 174315.594 
+lr:0.000200 PSNR: 14.735, DICE: 35.108, SSIM: 70.018, overall: 59.600
+(epoch: 43, iters: 140, time: 41.239s) loss: 120839.578 
+(epoch: 43, iters: 340, time: 14.650s) loss: 190014.484 
+(epoch: 43, iters: 540, time: 13.113s) loss: 182308.609 
+(epoch: 43, iters: 740, time: 14.414s) loss: 195049.219 
+(epoch: 43, iters: 940, time: 15.170s) loss: 140168.781 
+lr:0.000200 PSNR: 14.902, DICE: 35.838, SSIM: 70.646, overall: 60.332
+(epoch: 44, iters: 110, time: 41.996s) loss: 145941.141 
+(epoch: 44, iters: 310, time: 15.159s) loss: 217834.234 
+(epoch: 44, iters: 510, time: 13.709s) loss: 172747.578 
+(epoch: 44, iters: 710, time: 13.026s) loss: 130181.398 
+(epoch: 44, iters: 910, time: 15.164s) loss: 327229.969 
+lr:0.000200 PSNR: 14.918, DICE: 35.583, SSIM: 70.725, overall: 60.299
+(epoch: 45, iters: 80, time: 41.055s) loss: 119314.250 
+(epoch: 45, iters: 280, time: 14.711s) loss: 152756.859 
+(epoch: 45, iters: 480, time: 13.813s) loss: 228225.766 
+(epoch: 45, iters: 680, time: 14.601s) loss: 152531.812 
+(epoch: 45, iters: 880, time: 15.621s) loss: 161803.906 
+lr:0.000200 PSNR: 14.530, DICE: 34.588, SSIM: 68.990, overall: 58.743
+(epoch: 46, iters: 50, time: 40.993s) loss: 138593.203 
+(epoch: 46, iters: 250, time: 15.189s) loss: 145081.531 
+(epoch: 46, iters: 450, time: 14.090s) loss: 127089.148 
+(epoch: 46, iters: 650, time: 14.498s) loss: 191638.812 
+(epoch: 46, iters: 850, time: 14.521s) loss: 143624.859 
+lr:0.000200 PSNR: 14.748, DICE: 35.651, SSIM: 70.060, overall: 59.817
+(epoch: 47, iters: 20, time: 41.008s) loss: 117158.867 
+(epoch: 47, iters: 220, time: 15.329s) loss: 173039.766 
+(epoch: 47, iters: 420, time: 13.397s) loss: 138129.328 
+(epoch: 47, iters: 620, time: 14.529s) loss: 407286.844 
+(epoch: 47, iters: 820, time: 15.264s) loss: 171451.500 
+(epoch: 47, iters: 1020, time: 14.014s) loss: 232379.172 
+lr:0.000200 PSNR: 14.725, DICE: 35.924, SSIM: 69.950, overall: 59.833
+(epoch: 48, iters: 190, time: 43.498s) loss: 155257.672 
+(epoch: 48, iters: 390, time: 14.116s) loss: 158456.234 
+(epoch: 48, iters: 590, time: 12.233s) loss: 258723.203 
+(epoch: 48, iters: 790, time: 14.736s) loss: 200471.328 
+(epoch: 48, iters: 990, time: 13.696s) loss: 114194.344 
+lr:0.000200 PSNR: 14.852, DICE: 35.909, SSIM: 71.194, overall: 60.454
+saving recons model at the end of epoch 48, iters 49440
+(epoch: 49, iters: 160, time: 42.867s) loss: 246034.766 
+(epoch: 49, iters: 360, time: 14.663s) loss: 448118.250 
+(epoch: 49, iters: 560, time: 13.271s) loss: 110057.133 
+(epoch: 49, iters: 760, time: 15.263s) loss: 199647.516 
+(epoch: 49, iters: 960, time: 13.040s) loss: 166166.781 
+lr:0.000200 PSNR: 14.872, DICE: 33.443, SSIM: 71.083, overall: 59.629
+(epoch: 50, iters: 130, time: 43.364s) loss: 126290.805 
+(epoch: 50, iters: 330, time: 14.742s) loss: 260823.953 
+(epoch: 50, iters: 530, time: 12.171s) loss: 294426.312 
+(epoch: 50, iters: 730, time: 15.189s) loss: 192691.734 
+(epoch: 50, iters: 930, time: 12.551s) loss: 268942.094 
+lr:0.000200 PSNR: 14.921, DICE: 35.023, SSIM: 70.843, overall: 60.158
+(epoch: 51, iters: 100, time: 42.588s) loss: 151914.562 
+(epoch: 51, iters: 300, time: 14.243s) loss: 253481.234 
+(epoch: 51, iters: 500, time: 13.728s) loss: 206547.062 
+(epoch: 51, iters: 700, time: 14.251s) loss: 138520.797 
+(epoch: 51, iters: 900, time: 13.634s) loss: 102021.898 
+lr:0.000200 PSNR: 14.945, DICE: 37.435, SSIM: 71.155, overall: 61.105
+saving recons model at the end of epoch 51, iters 52536
+(epoch: 52, iters: 70, time: 44.113s) loss: 127347.430 
+(epoch: 52, iters: 270, time: 14.314s) loss: 157452.078 
+(epoch: 52, iters: 470, time: 13.955s) loss: 125345.539 
+(epoch: 52, iters: 670, time: 13.867s) loss: 235009.781 
+(epoch: 52, iters: 870, time: 12.924s) loss: 164875.312 
+lr:0.000200 PSNR: 14.857, DICE: 36.019, SSIM: 71.036, overall: 60.446
+(epoch: 53, iters: 40, time: 42.890s) loss: 147594.406 
+(epoch: 53, iters: 240, time: 14.322s) loss: 213108.016 
+(epoch: 53, iters: 440, time: 14.640s) loss: 163869.000 
+(epoch: 53, iters: 640, time: 13.116s) loss: 267165.281 
+(epoch: 53, iters: 840, time: 14.652s) loss: 176863.672 
+lr:0.000200 PSNR: 15.004, DICE: 38.136, SSIM: 71.270, overall: 61.476
+saving recons model at the end of epoch 53, iters 54592
+(epoch: 54, iters: 10, time: 43.219s) loss: 147173.812 
+(epoch: 54, iters: 210, time: 15.349s) loss: 91165.453 
+(epoch: 54, iters: 410, time: 14.947s) loss: 211940.281 
+(epoch: 54, iters: 610, time: 13.403s) loss: 174374.062 
+(epoch: 54, iters: 810, time: 14.377s) loss: 154984.719 
+(epoch: 54, iters: 1010, time: 14.081s) loss: 194970.500 
+lr:0.000200 PSNR: 14.862, DICE: 37.472, SSIM: 70.616, overall: 60.800
+(epoch: 55, iters: 180, time: 42.481s) loss: 144564.344 
+(epoch: 55, iters: 380, time: 15.518s) loss: 176242.828 
+(epoch: 55, iters: 580, time: 13.553s) loss: 132270.672 
+(epoch: 55, iters: 780, time: 14.986s) loss: 126524.125 
+(epoch: 55, iters: 980, time: 12.980s) loss: 169117.422 
+lr:0.000200 PSNR: 14.958, DICE: 36.522, SSIM: 71.815, overall: 61.043
+(epoch: 56, iters: 150, time: 42.407s) loss: 130373.172 
+(epoch: 56, iters: 350, time: 14.530s) loss: 140429.484 
+(epoch: 56, iters: 550, time: 13.412s) loss: 152020.562 
+(epoch: 56, iters: 750, time: 14.686s) loss: 121365.836 
+(epoch: 56, iters: 950, time: 12.567s) loss: 148970.766 
+lr:0.000200 PSNR: 14.063, DICE: 33.126, SSIM: 67.753, overall: 57.065
+(epoch: 57, iters: 120, time: 42.961s) loss: 110642.938 
+(epoch: 57, iters: 320, time: 15.292s) loss: 127288.805 
+(epoch: 57, iters: 520, time: 13.302s) loss: 159006.156 
+(epoch: 57, iters: 720, time: 14.466s) loss: 153394.281 
+(epoch: 57, iters: 920, time: 13.373s) loss: 100397.039 
+lr:0.000200 PSNR: 15.051, DICE: 35.330, SSIM: 71.809, overall: 60.798
+(epoch: 58, iters: 90, time: 43.387s) loss: 94234.758 
+(epoch: 58, iters: 290, time: 15.344s) loss: 115087.992 
+(epoch: 58, iters: 490, time: 12.859s) loss: 111465.391 
+(epoch: 58, iters: 690, time: 15.101s) loss: 116830.539 
+(epoch: 58, iters: 890, time: 13.825s) loss: 126556.664 
+lr:0.000200 PSNR: 14.866, DICE: 39.648, SSIM: 70.980, overall: 61.652
+saving recons model at the end of epoch 58, iters 59744
+(epoch: 59, iters: 60, time: 41.418s) loss: 96782.328 
+(epoch: 59, iters: 260, time: 13.607s) loss: 119740.992 
+(epoch: 59, iters: 460, time: 13.531s) loss: 105551.719 
+(epoch: 59, iters: 660, time: 13.909s) loss: 127991.719 
+(epoch: 59, iters: 860, time: 13.487s) loss: 195507.859 
+lr:0.000200 PSNR: 14.684, DICE: 34.191, SSIM: 71.070, overall: 59.560
+(epoch: 60, iters: 30, time: 40.709s) loss: 125669.617 
+(epoch: 60, iters: 230, time: 12.984s) loss: 101964.781 
+(epoch: 60, iters: 430, time: 15.658s) loss: 130170.617 
+(epoch: 60, iters: 630, time: 13.132s) loss: 224656.344 
+(epoch: 60, iters: 830, time: 14.486s) loss: 101981.070 
+(epoch: 60, iters: 1030, time: 13.121s) loss: 212995.891 
+lr:0.000200 PSNR: 14.418, DICE: 32.477, SSIM: 69.791, overall: 58.120
+(epoch: 61, iters: 200, time: 14.760s) loss: 207965.000 
+(epoch: 61, iters: 400, time: 14.974s) loss: 176930.688 
+(epoch: 61, iters: 600, time: 12.956s) loss: 120899.906 
+(epoch: 61, iters: 800, time: 14.484s) loss: 137117.875 
+(epoch: 61, iters: 1000, time: 13.463s) loss: 167376.312 
+lr:0.000200 PSNR: 14.725, DICE: 34.472, SSIM: 71.227, overall: 59.776
+(epoch: 62, iters: 170, time: 43.193s) loss: 139891.578 
+(epoch: 62, iters: 370, time: 13.757s) loss: 86270.805 
+(epoch: 62, iters: 570, time: 13.775s) loss: 273283.875 
+(epoch: 62, iters: 770, time: 14.895s) loss: 163697.297 
+(epoch: 62, iters: 970, time: 13.838s) loss: 172041.406 
+lr:0.000200 PSNR: 14.951, DICE: 34.579, SSIM: 71.975, overall: 60.437
+(epoch: 63, iters: 140, time: 45.061s) loss: 121219.844 
+(epoch: 63, iters: 340, time: 13.456s) loss: 148982.531 
+(epoch: 63, iters: 540, time: 14.022s) loss: 177428.328 
+(epoch: 63, iters: 740, time: 14.155s) loss: 128374.367 
+(epoch: 63, iters: 940, time: 13.053s) loss: 179944.375 
+lr:0.000200 PSNR: 14.798, DICE: 36.923, SSIM: 70.824, overall: 60.580
+(epoch: 64, iters: 110, time: 43.474s) loss: 119826.781 
+(epoch: 64, iters: 310, time: 14.434s) loss: 157201.047 
+(epoch: 64, iters: 510, time: 13.617s) loss: 142900.938 
+(epoch: 64, iters: 710, time: 14.436s) loss: 135376.188 
+(epoch: 64, iters: 910, time: 12.480s) loss: 139373.172 
+lr:0.000200 PSNR: 15.095, DICE: 37.014, SSIM: 72.426, overall: 61.638
+(epoch: 65, iters: 80, time: 43.450s) loss: 125182.680 
+(epoch: 65, iters: 280, time: 13.767s) loss: 226693.531 
+(epoch: 65, iters: 480, time: 14.256s) loss: 154776.594 
+(epoch: 65, iters: 680, time: 13.800s) loss: 127055.664 
+(epoch: 65, iters: 880, time: 13.326s) loss: 182208.562 
+lr:0.000200 PSNR: 14.970, DICE: 35.662, SSIM: 71.476, overall: 60.662
+(epoch: 66, iters: 50, time: 43.046s) loss: 153150.125 
+(epoch: 66, iters: 250, time: 13.161s) loss: 172193.156 
+(epoch: 66, iters: 450, time: 14.177s) loss: 131564.172 
+(epoch: 66, iters: 650, time: 13.991s) loss: 161895.016 
+(epoch: 66, iters: 850, time: 13.025s) loss: 177344.469 
+lr:0.000200 PSNR: 15.113, DICE: 39.678, SSIM: 72.304, overall: 62.516
+saving recons model at the end of epoch 66, iters 67984
+(epoch: 67, iters: 20, time: 43.248s) loss: 194159.094 
+(epoch: 67, iters: 220, time: 14.727s) loss: 101990.453 
+(epoch: 67, iters: 420, time: 15.365s) loss: 192649.047 
+(epoch: 67, iters: 620, time: 12.516s) loss: 139633.438 
+(epoch: 67, iters: 820, time: 14.599s) loss: 171913.781 
+(epoch: 67, iters: 1020, time: 12.566s) loss: 193918.797 
+lr:0.000200 PSNR: 14.843, DICE: 35.406, SSIM: 71.066, overall: 60.229
+(epoch: 68, iters: 190, time: 44.299s) loss: 113839.797 
+(epoch: 68, iters: 390, time: 14.604s) loss: 98636.469 
+(epoch: 68, iters: 590, time: 11.385s) loss: 142123.828 
+(epoch: 68, iters: 790, time: 15.688s) loss: 93262.414 
+(epoch: 68, iters: 990, time: 13.435s) loss: 130618.406 
+lr:0.000200 PSNR: 15.125, DICE: 37.054, SSIM: 72.357, overall: 61.678
+(epoch: 69, iters: 160, time: 42.951s) loss: 113713.531 
+(epoch: 69, iters: 360, time: 14.734s) loss: 115436.438 
+(epoch: 69, iters: 560, time: 11.664s) loss: 146162.328 
+(epoch: 69, iters: 760, time: 14.600s) loss: 98593.742 
+(epoch: 69, iters: 960, time: 13.829s) loss: 128479.547 
+lr:0.000200 PSNR: 15.113, DICE: 37.343, SSIM: 72.609, overall: 61.840
+(epoch: 70, iters: 130, time: 44.085s) loss: 157243.312 
+(epoch: 70, iters: 330, time: 14.573s) loss: 180695.328 
+(epoch: 70, iters: 530, time: 12.065s) loss: 133482.969 
+(epoch: 70, iters: 730, time: 15.945s) loss: 94915.727 
+(epoch: 70, iters: 930, time: 14.054s) loss: 194850.344 
+lr:0.000200 PSNR: 15.108, DICE: 38.500, SSIM: 72.591, overall: 62.210
+(epoch: 71, iters: 100, time: 43.589s) loss: 90386.891 
+(epoch: 71, iters: 300, time: 13.839s) loss: 113362.836 
+(epoch: 71, iters: 500, time: 13.518s) loss: 153226.172 
+(epoch: 71, iters: 700, time: 14.770s) loss: 94708.539 
+(epoch: 71, iters: 900, time: 12.655s) loss: 151376.703 
+lr:0.000200 PSNR: 15.080, DICE: 36.534, SSIM: 72.498, overall: 61.477
+(epoch: 72, iters: 70, time: 44.003s) loss: 177926.078 
+(epoch: 72, iters: 270, time: 14.325s) loss: 119673.938 
+(epoch: 72, iters: 470, time: 13.182s) loss: 107203.039 
+(epoch: 72, iters: 670, time: 14.338s) loss: 279942.594 
+(epoch: 72, iters: 870, time: 13.603s) loss: 171955.797 
+lr:0.000200 PSNR: 14.907, DICE: 36.403, SSIM: 71.909, overall: 60.949
+(epoch: 73, iters: 40, time: 43.602s) loss: 122429.492 
+(epoch: 73, iters: 240, time: 14.758s) loss: 150607.297 
+(epoch: 73, iters: 440, time: 13.797s) loss: 205984.453 
+(epoch: 73, iters: 640, time: 14.517s) loss: 283813.219 
+(epoch: 73, iters: 840, time: 13.633s) loss: 125513.953 
+lr:0.000200 PSNR: 15.065, DICE: 33.679, SSIM: 72.260, overall: 60.421
+(epoch: 74, iters: 10, time: 43.963s) loss: 126087.789 
+(epoch: 74, iters: 210, time: 14.977s) loss: 169893.938 
+(epoch: 74, iters: 410, time: 13.530s) loss: 86547.211 
+(epoch: 74, iters: 610, time: 14.634s) loss: 91340.789 
+(epoch: 74, iters: 810, time: 13.378s) loss: 111343.758 
+(epoch: 74, iters: 1010, time: 14.117s) loss: 145026.484 
+lr:0.000200 PSNR: 15.053, DICE: 35.276, SSIM: 72.435, overall: 60.993
+(epoch: 75, iters: 180, time: 45.220s) loss: 181852.094 
+(epoch: 75, iters: 380, time: 14.029s) loss: 97500.625 
+(epoch: 75, iters: 580, time: 14.237s) loss: 104569.898 
+(epoch: 75, iters: 780, time: 13.387s) loss: 164401.766 
+(epoch: 75, iters: 980, time: 14.573s) loss: 119665.766 
+lr:0.000200 PSNR: 14.969, DICE: 38.093, SSIM: 72.387, overall: 61.775
+(epoch: 76, iters: 150, time: 41.886s) loss: 128319.344 
+(epoch: 76, iters: 350, time: 14.236s) loss: 131255.062 
+(epoch: 76, iters: 550, time: 14.074s) loss: 112550.688 
+(epoch: 76, iters: 750, time: 13.922s) loss: 89419.297 
+(epoch: 76, iters: 950, time: 14.327s) loss: 138916.281 
+lr:0.000200 PSNR: 15.000, DICE: 38.996, SSIM: 72.247, overall: 62.080
+(epoch: 77, iters: 120, time: 39.934s) loss: 154936.969 
+(epoch: 77, iters: 320, time: 14.058s) loss: 135971.297 
+(epoch: 77, iters: 520, time: 13.792s) loss: 102439.961 
+(epoch: 77, iters: 720, time: 13.247s) loss: 133054.375 
+(epoch: 77, iters: 920, time: 14.277s) loss: 98767.703 
+lr:0.000200 PSNR: 15.063, DICE: 38.118, SSIM: 72.955, overall: 62.129
+(epoch: 78, iters: 90, time: 43.930s) loss: 144602.312 
+(epoch: 78, iters: 290, time: 13.929s) loss: 115125.719 
+(epoch: 78, iters: 490, time: 14.125s) loss: 120844.812 
+(epoch: 78, iters: 690, time: 14.171s) loss: 93373.844 
+(epoch: 78, iters: 890, time: 14.839s) loss: 105146.742 
+lr:0.000100 PSNR: 14.840, DICE: 36.187, SSIM: 71.752, overall: 60.714
+(epoch: 79, iters: 60, time: 43.468s) loss: 107820.219 
+(epoch: 79, iters: 260, time: 13.068s) loss: 127122.562 
+(epoch: 79, iters: 460, time: 14.964s) loss: 122750.352 
+(epoch: 79, iters: 660, time: 13.328s) loss: 151573.656 
+(epoch: 79, iters: 860, time: 14.103s) loss: 160150.047 
+lr:0.000100 PSNR: 15.149, DICE: 38.045, SSIM: 72.990, overall: 62.260
+(epoch: 80, iters: 30, time: 44.190s) loss: 109803.617 
+(epoch: 80, iters: 230, time: 13.922s) loss: 151117.016 
+(epoch: 80, iters: 430, time: 15.178s) loss: 193017.359 
+(epoch: 80, iters: 630, time: 12.760s) loss: 94634.766 
+(epoch: 80, iters: 830, time: 14.068s) loss: 102327.758 
+(epoch: 80, iters: 1030, time: 14.439s) loss: 197535.719 
+lr:0.000100 PSNR: 15.067, DICE: 39.248, SSIM: 72.663, overall: 62.415
+(epoch: 81, iters: 200, time: 13.089s) loss: 116076.500 
+(epoch: 81, iters: 400, time: 15.099s) loss: 108693.680 
+(epoch: 81, iters: 600, time: 12.905s) loss: 127931.266 
+(epoch: 81, iters: 800, time: 14.081s) loss: 170427.281 
+(epoch: 81, iters: 1000, time: 14.543s) loss: 98862.320 
+lr:0.000100 PSNR: 14.996, DICE: 37.696, SSIM: 72.478, overall: 61.718
+(epoch: 82, iters: 170, time: 41.650s) loss: 112139.836 
+(epoch: 82, iters: 370, time: 14.489s) loss: 103986.750 
+(epoch: 82, iters: 570, time: 14.212s) loss: 136863.203 
+(epoch: 82, iters: 770, time: 13.390s) loss: 153660.781 
+(epoch: 82, iters: 970, time: 14.822s) loss: 105785.938 
+lr:0.000100 PSNR: 15.160, DICE: 41.073, SSIM: 73.238, overall: 63.370
+saving recons model at the end of epoch 82, iters 84464
+(epoch: 83, iters: 140, time: 42.186s) loss: 118824.766 
+(epoch: 83, iters: 340, time: 14.094s) loss: 96977.539 
+(epoch: 83, iters: 540, time: 14.182s) loss: 114970.641 
+(epoch: 83, iters: 740, time: 12.549s) loss: 115513.805 
+(epoch: 83, iters: 940, time: 14.244s) loss: 93232.008 
+lr:0.000100 PSNR: 15.146, DICE: 38.679, SSIM: 72.844, overall: 62.418
+(epoch: 84, iters: 110, time: 41.410s) loss: 106827.242 
+(epoch: 84, iters: 310, time: 13.424s) loss: 84045.188 
+(epoch: 84, iters: 510, time: 13.995s) loss: 96144.781 
+(epoch: 84, iters: 710, time: 13.723s) loss: 80092.430 
+(epoch: 84, iters: 910, time: 13.803s) loss: 138473.812 
+lr:0.000100 PSNR: 15.129, DICE: 38.187, SSIM: 72.810, overall: 62.214
+(epoch: 85, iters: 80, time: 44.382s) loss: 79588.000 
+(epoch: 85, iters: 280, time: 14.889s) loss: 99012.773 
+(epoch: 85, iters: 480, time: 13.740s) loss: 184384.000 
+(epoch: 85, iters: 680, time: 14.933s) loss: 112545.555 
+(epoch: 85, iters: 880, time: 13.749s) loss: 119133.969 
+lr:0.000100 PSNR: 14.957, DICE: 38.747, SSIM: 72.250, overall: 61.927
+(epoch: 86, iters: 50, time: 41.991s) loss: 95186.633 
+(epoch: 86, iters: 250, time: 15.310s) loss: 122313.211 
+(epoch: 86, iters: 450, time: 14.416s) loss: 102022.609 
+(epoch: 86, iters: 650, time: 14.310s) loss: 205749.875 
+(epoch: 86, iters: 850, time: 12.859s) loss: 139636.000 
+lr:0.000100 PSNR: 15.110, DICE: 37.929, SSIM: 72.844, overall: 62.108
+(epoch: 87, iters: 20, time: 43.537s) loss: 103365.781 
+(epoch: 87, iters: 220, time: 13.921s) loss: 114739.953 
+(epoch: 87, iters: 420, time: 14.459s) loss: 136538.531 
+(epoch: 87, iters: 620, time: 14.093s) loss: 92945.516 
+(epoch: 87, iters: 820, time: 13.597s) loss: 186860.250 
+(epoch: 87, iters: 1020, time: 14.223s) loss: 141182.531 
+lr:0.000100 PSNR: 14.960, DICE: 36.890, SSIM: 72.452, overall: 61.381
+(epoch: 88, iters: 190, time: 40.356s) loss: 154825.359 
+(epoch: 88, iters: 390, time: 14.548s) loss: 110329.086 
+(epoch: 88, iters: 590, time: 14.391s) loss: 102182.992 
+(epoch: 88, iters: 790, time: 13.846s) loss: 110822.594 
+(epoch: 88, iters: 990, time: 14.338s) loss: 82390.258 
+lr:0.000100 PSNR: 14.891, DICE: 36.091, SSIM: 71.730, overall: 60.759
+(epoch: 89, iters: 160, time: 42.804s) loss: 83703.125 
+(epoch: 89, iters: 360, time: 14.575s) loss: 103665.047 
+(epoch: 89, iters: 560, time: 14.151s) loss: 136012.047 
+(epoch: 89, iters: 760, time: 13.818s) loss: 171313.438 
+(epoch: 89, iters: 960, time: 14.432s) loss: 109957.680 
+lr:0.000100 PSNR: 14.476, DICE: 37.676, SSIM: 69.982, overall: 60.012
+(epoch: 90, iters: 130, time: 40.349s) loss: 101219.758 
+(epoch: 90, iters: 330, time: 14.751s) loss: 110794.875 
+(epoch: 90, iters: 530, time: 13.772s) loss: 112610.414 
+(epoch: 90, iters: 730, time: 14.503s) loss: 76606.914 
+(epoch: 90, iters: 930, time: 12.981s) loss: 111469.547 
+lr:0.000100 PSNR: 14.966, DICE: 36.722, SSIM: 72.424, overall: 61.326
+(epoch: 91, iters: 100, time: 43.843s) loss: 76138.523 
+(epoch: 91, iters: 300, time: 13.348s) loss: 76976.703 
+(epoch: 91, iters: 500, time: 13.983s) loss: 151197.734 
+(epoch: 91, iters: 700, time: 14.313s) loss: 111088.141 
+(epoch: 91, iters: 900, time: 12.958s) loss: 100732.844 
+lr:0.000100 PSNR: 15.203, DICE: 36.647, SSIM: 73.251, overall: 61.971
+(epoch: 92, iters: 70, time: 42.395s) loss: 99561.641 
+(epoch: 92, iters: 270, time: 13.794s) loss: 76423.984 
+(epoch: 92, iters: 470, time: 14.513s) loss: 217739.062 
+(epoch: 92, iters: 670, time: 13.522s) loss: 175369.734 
+(epoch: 92, iters: 870, time: 14.031s) loss: 121969.352 
+lr:0.000100 PSNR: 15.023, DICE: 39.163, SSIM: 72.698, overall: 62.326
+(epoch: 93, iters: 40, time: 45.032s) loss: 118480.258 
+(epoch: 93, iters: 240, time: 14.437s) loss: 102121.953 
+(epoch: 93, iters: 440, time: 14.277s) loss: 108013.055 
+(epoch: 93, iters: 640, time: 14.043s) loss: 100685.586 
+(epoch: 93, iters: 840, time: 13.529s) loss: 130776.375 
+lr:0.000100 PSNR: 15.080, DICE: 39.339, SSIM: 72.822, overall: 62.520
+(epoch: 94, iters: 10, time: 41.763s) loss: 107086.508 
+(epoch: 94, iters: 210, time: 13.944s) loss: 119444.203 
+(epoch: 94, iters: 410, time: 14.359s) loss: 104789.859 
+(epoch: 94, iters: 610, time: 13.923s) loss: 97644.367 
+(epoch: 94, iters: 810, time: 13.350s) loss: 157850.156 
+(epoch: 94, iters: 1010, time: 14.081s) loss: 105606.133 
+lr:0.000100 PSNR: 15.056, DICE: 39.539, SSIM: 72.595, overall: 62.471
+(epoch: 95, iters: 180, time: 42.193s) loss: 89790.102 
+(epoch: 95, iters: 380, time: 13.205s) loss: 101129.102 
+(epoch: 95, iters: 580, time: 14.707s) loss: 113577.984 
+(epoch: 95, iters: 780, time: 13.159s) loss: 99291.688 
+(epoch: 95, iters: 980, time: 14.396s) loss: 103563.406 
+lr:0.000100 PSNR: 15.008, DICE: 39.284, SSIM: 72.749, overall: 62.358
+(epoch: 96, iters: 150, time: 45.518s) loss: 128672.945 
+(epoch: 96, iters: 350, time: 14.062s) loss: 118974.625 
+(epoch: 96, iters: 550, time: 14.137s) loss: 100427.391 
+(epoch: 96, iters: 750, time: 13.037s) loss: 94209.508 
+(epoch: 96, iters: 950, time: 14.151s) loss: 83323.508 
+lr:0.000100 PSNR: 15.159, DICE: 41.211, SSIM: 72.926, overall: 63.310
+(epoch: 97, iters: 120, time: 43.767s) loss: 95303.914 
+(epoch: 97, iters: 320, time: 13.977s) loss: 89908.117 
+(epoch: 97, iters: 520, time: 14.148s) loss: 136379.750 
+(epoch: 97, iters: 720, time: 14.051s) loss: 85013.875 
+(epoch: 97, iters: 920, time: 14.173s) loss: 121392.086 
+lr:0.000100 PSNR: 15.109, DICE: 38.540, SSIM: 73.026, overall: 62.371
+(epoch: 98, iters: 90, time: 42.522s) loss: 83431.586 
+(epoch: 98, iters: 290, time: 13.087s) loss: 102536.430 
+(epoch: 98, iters: 490, time: 14.937s) loss: 137585.812 
+(epoch: 98, iters: 690, time: 12.496s) loss: 91790.461 
+(epoch: 98, iters: 890, time: 14.835s) loss: 98296.391 
+lr:0.000100 PSNR: 15.079, DICE: 39.684, SSIM: 72.791, overall: 62.624
+(epoch: 99, iters: 60, time: 41.876s) loss: 91290.531 
+(epoch: 99, iters: 260, time: 13.759s) loss: 109673.641 
+(epoch: 99, iters: 460, time: 14.146s) loss: 171890.656 
+(epoch: 99, iters: 660, time: 13.812s) loss: 185752.797 
+(epoch: 99, iters: 860, time: 13.478s) loss: 117452.984 
+lr:0.000100 PSNR: 15.195, DICE: 38.607, SSIM: 73.212, overall: 62.598
+(epoch: 100, iters: 30, time: 43.588s) loss: 84689.734 
+(epoch: 100, iters: 230, time: 13.731s) loss: 89821.273 
+(epoch: 100, iters: 430, time: 14.714s) loss: 99779.484 
+(epoch: 100, iters: 630, time: 14.154s) loss: 135287.141 
+(epoch: 100, iters: 830, time: 14.658s) loss: 108214.789 
+(epoch: 100, iters: 1030, time: 14.802s) loss: 86804.070 
+lr:0.000100 PSNR: 15.188, DICE: 39.598, SSIM: 73.288, overall: 62.942
+(epoch: 101, iters: 200, time: 13.923s) loss: 81442.445 
+(epoch: 101, iters: 400, time: 14.211s) loss: 89089.914 
+(epoch: 101, iters: 600, time: 14.104s) loss: 108109.195 
+(epoch: 101, iters: 800, time: 13.703s) loss: 172129.516 
+(epoch: 101, iters: 1000, time: 14.717s) loss: 99548.797 
+lr:0.000100 PSNR: 15.119, DICE: 38.124, SSIM: 73.008, overall: 62.241
+(epoch: 102, iters: 170, time: 43.494s) loss: 101037.609 
+(epoch: 102, iters: 370, time: 14.043s) loss: 152514.844 
+(epoch: 102, iters: 570, time: 13.920s) loss: 170805.641 
+(epoch: 102, iters: 770, time: 13.230s) loss: 85032.797 
+(epoch: 102, iters: 970, time: 14.242s) loss: 87620.953 
+lr:0.000100 PSNR: 15.006, DICE: 35.406, SSIM: 72.688, overall: 61.041
+(epoch: 103, iters: 140, time: 43.403s) loss: 126957.250 
+(epoch: 103, iters: 340, time: 13.943s) loss: 124445.477 
+(epoch: 103, iters: 540, time: 14.380s) loss: 97675.508 
+(epoch: 103, iters: 740, time: 14.245s) loss: 88358.383 
+(epoch: 103, iters: 940, time: 15.173s) loss: 119370.539 
+lr:0.000100 PSNR: 15.106, DICE: 37.335, SSIM: 73.098, overall: 61.987
+(epoch: 104, iters: 110, time: 42.746s) loss: 126994.500 
+(epoch: 104, iters: 310, time: 14.342s) loss: 94455.680 
+(epoch: 104, iters: 510, time: 14.201s) loss: 134840.234 
+(epoch: 104, iters: 710, time: 14.074s) loss: 103650.594 
+(epoch: 104, iters: 910, time: 14.391s) loss: 84703.836 
+lr:0.000100 PSNR: 14.542, DICE: 36.200, SSIM: 70.984, overall: 59.964
+(epoch: 105, iters: 80, time: 44.292s) loss: 164744.891 
+(epoch: 105, iters: 280, time: 14.413s) loss: 91227.547 
+(epoch: 105, iters: 480, time: 13.810s) loss: 115294.930 
+(epoch: 105, iters: 680, time: 14.282s) loss: 92637.766 
+(epoch: 105, iters: 880, time: 14.931s) loss: 134912.484 
+lr:0.000100 PSNR: 15.029, DICE: 36.861, SSIM: 72.812, overall: 61.606
+(epoch: 106, iters: 50, time: 43.471s) loss: 90051.188 
+(epoch: 106, iters: 250, time: 14.185s) loss: 110121.195 
+(epoch: 106, iters: 450, time: 14.140s) loss: 144965.109 
+(epoch: 106, iters: 650, time: 12.993s) loss: 110954.016 
+(epoch: 106, iters: 850, time: 14.666s) loss: 133359.141 
+lr:0.000100 PSNR: 15.171, DICE: 40.908, SSIM: 73.371, overall: 63.378
+saving recons model at the end of epoch 106, iters 109184
+(epoch: 107, iters: 20, time: 43.695s) loss: 104140.211 
+(epoch: 107, iters: 220, time: 14.109s) loss: 171438.000 
+(epoch: 107, iters: 420, time: 14.179s) loss: 93876.469 
+(epoch: 107, iters: 620, time: 13.098s) loss: 102155.594 
+(epoch: 107, iters: 820, time: 14.840s) loss: 158854.719 
+(epoch: 107, iters: 1020, time: 14.641s) loss: 85011.594 
+lr:0.000100 PSNR: 15.113, DICE: 38.106, SSIM: 73.054, overall: 62.241
+(epoch: 108, iters: 190, time: 42.400s) loss: 97302.898 
+(epoch: 108, iters: 390, time: 14.172s) loss: 88578.062 
+(epoch: 108, iters: 590, time: 13.741s) loss: 90213.211 
+(epoch: 108, iters: 790, time: 12.697s) loss: 110691.180 
+(epoch: 108, iters: 990, time: 15.268s) loss: 85513.891 
+lr:0.000100 PSNR: 15.127, DICE: 38.626, SSIM: 72.985, overall: 62.416
+(epoch: 109, iters: 160, time: 42.916s) loss: 247335.219 
+(epoch: 109, iters: 360, time: 14.317s) loss: 117061.273 
+(epoch: 109, iters: 560, time: 13.973s) loss: 99805.000 
+(epoch: 109, iters: 760, time: 13.566s) loss: 98447.289 
+(epoch: 109, iters: 960, time: 14.962s) loss: 78062.883 
+lr:0.000100 PSNR: 14.996, DICE: 39.615, SSIM: 72.898, overall: 62.498
+(epoch: 110, iters: 130, time: 43.210s) loss: 145764.000 
+(epoch: 110, iters: 330, time: 14.196s) loss: 89265.492 
+(epoch: 110, iters: 530, time: 13.686s) loss: 81687.547 
+(epoch: 110, iters: 730, time: 14.336s) loss: 122226.336 
+(epoch: 110, iters: 930, time: 14.547s) loss: 107930.992 
+lr:0.000100 PSNR: 15.012, DICE: 36.542, SSIM: 73.076, overall: 61.560
+(epoch: 111, iters: 100, time: 40.328s) loss: 147976.844 
+(epoch: 111, iters: 300, time: 13.925s) loss: 87854.102 
+(epoch: 111, iters: 500, time: 14.354s) loss: 117609.727 
+(epoch: 111, iters: 700, time: 14.574s) loss: 120801.320 
+(epoch: 111, iters: 900, time: 14.163s) loss: 85272.039 
+lr:0.000100 PSNR: 14.910, DICE: 37.591, SSIM: 72.597, overall: 61.579
+(epoch: 112, iters: 70, time: 42.799s) loss: 118037.039 
+(epoch: 112, iters: 270, time: 14.477s) loss: 108464.289 
+(epoch: 112, iters: 470, time: 14.055s) loss: 144223.297 
+(epoch: 112, iters: 670, time: 13.060s) loss: 126330.828 
+(epoch: 112, iters: 870, time: 14.814s) loss: 140056.391 
+lr:0.000100 PSNR: 14.865, DICE: 39.235, SSIM: 72.621, overall: 62.061
+(epoch: 113, iters: 40, time: 44.006s) loss: 165200.797 
+(epoch: 113, iters: 240, time: 14.344s) loss: 136346.984 
+(epoch: 113, iters: 440, time: 14.086s) loss: 114853.477 
+(epoch: 113, iters: 640, time: 12.831s) loss: 105733.242 
+(epoch: 113, iters: 840, time: 13.977s) loss: 120324.305 
+lr:0.000100 PSNR: 15.148, DICE: 41.067, SSIM: 73.004, overall: 63.271
+(epoch: 114, iters: 10, time: 42.919s) loss: 99774.812 
+(epoch: 114, iters: 210, time: 13.467s) loss: 124639.445 
+(epoch: 114, iters: 410, time: 14.442s) loss: 165986.422 
+(epoch: 114, iters: 610, time: 13.159s) loss: 146713.188 
+(epoch: 114, iters: 810, time: 15.030s) loss: 111522.859 
+(epoch: 114, iters: 1010, time: 14.748s) loss: 92155.844 
+lr:0.000100 PSNR: 15.140, DICE: 38.692, SSIM: 73.576, overall: 62.656
+(epoch: 115, iters: 180, time: 42.899s) loss: 106572.430 
+(epoch: 115, iters: 380, time: 13.908s) loss: 94263.156 
+(epoch: 115, iters: 580, time: 13.684s) loss: 123695.219 
+(epoch: 115, iters: 780, time: 14.267s) loss: 84365.445 
+(epoch: 115, iters: 980, time: 15.477s) loss: 86169.133 
+lr:0.000100 PSNR: 14.963, DICE: 37.930, SSIM: 72.664, overall: 61.804
+(epoch: 116, iters: 150, time: 40.193s) loss: 113744.094 
+(epoch: 116, iters: 350, time: 14.202s) loss: 74052.914 
+(epoch: 116, iters: 550, time: 14.030s) loss: 114370.922 
+(epoch: 116, iters: 750, time: 13.479s) loss: 105079.023 
+(epoch: 116, iters: 950, time: 14.316s) loss: 77179.047 
+lr:0.000100 PSNR: 15.043, DICE: 41.195, SSIM: 73.251, overall: 63.219
+(epoch: 117, iters: 120, time: 40.514s) loss: 84608.570 
+(epoch: 117, iters: 320, time: 14.085s) loss: 74818.203 
+(epoch: 117, iters: 520, time: 14.548s) loss: 158450.703 
+(epoch: 117, iters: 720, time: 14.494s) loss: 99478.828 
+(epoch: 117, iters: 920, time: 14.386s) loss: 106183.938 
+lr:0.000050 PSNR: 15.135, DICE: 37.918, SSIM: 73.558, overall: 62.384
+(epoch: 118, iters: 90, time: 41.212s) loss: 107645.016 
+(epoch: 118, iters: 290, time: 13.751s) loss: 88949.195 
+(epoch: 118, iters: 490, time: 14.002s) loss: 91633.680 
+(epoch: 118, iters: 690, time: 13.104s) loss: 121655.453 
+(epoch: 118, iters: 890, time: 13.815s) loss: 123998.664 
+lr:0.000050 PSNR: 15.170, DICE: 39.689, SSIM: 73.525, overall: 63.022
+(epoch: 119, iters: 60, time: 42.926s) loss: 121835.555 
+(epoch: 119, iters: 260, time: 14.524s) loss: 97847.203 
+(epoch: 119, iters: 460, time: 13.984s) loss: 96998.484 
+(epoch: 119, iters: 660, time: 13.457s) loss: 81142.828 
+(epoch: 119, iters: 860, time: 13.254s) loss: 87882.172 
+lr:0.000050 PSNR: 15.218, DICE: 40.893, SSIM: 73.671, overall: 63.552
+saving recons model at the end of epoch 119, iters 122576
+(epoch: 120, iters: 30, time: 41.265s) loss: 68602.891 
+(epoch: 120, iters: 230, time: 13.322s) loss: 155733.234 
+(epoch: 120, iters: 430, time: 13.413s) loss: 114479.422 
+(epoch: 120, iters: 630, time: 14.003s) loss: 128900.633 
+(epoch: 120, iters: 830, time: 12.957s) loss: 127233.789 
+(epoch: 120, iters: 1030, time: 13.912s) loss: 80789.109 
+lr:0.000050 PSNR: 15.127, DICE: 39.956, SSIM: 73.385, overall: 62.992
+(epoch: 121, iters: 200, time: 13.119s) loss: 78326.102 
+(epoch: 121, iters: 400, time: 14.267s) loss: 79165.656 
+(epoch: 121, iters: 600, time: 13.288s) loss: 78527.812 
+(epoch: 121, iters: 800, time: 14.591s) loss: 93783.289 
+(epoch: 121, iters: 1000, time: 12.802s) loss: 90015.516 
+lr:0.000050 PSNR: 15.041, DICE: 38.837, SSIM: 73.168, overall: 62.404
+(epoch: 122, iters: 170, time: 41.101s) loss: 95965.352 
+(epoch: 122, iters: 370, time: 14.184s) loss: 146475.906 
+(epoch: 122, iters: 570, time: 14.638s) loss: 90458.227 
+(epoch: 122, iters: 770, time: 13.976s) loss: 75910.742 
+(epoch: 122, iters: 970, time: 13.658s) loss: 106456.750 
+lr:0.000050 PSNR: 15.125, DICE: 39.588, SSIM: 73.363, overall: 62.859
+(epoch: 123, iters: 140, time: 43.873s) loss: 69733.320 
+(epoch: 123, iters: 340, time: 13.274s) loss: 94298.016 
+(epoch: 123, iters: 540, time: 14.155s) loss: 87851.469 
+(epoch: 123, iters: 740, time: 14.600s) loss: 129222.516 
+(epoch: 123, iters: 940, time: 13.578s) loss: 116783.844 
+lr:0.000050 PSNR: 15.088, DICE: 39.276, SSIM: 73.344, overall: 62.686
+(epoch: 124, iters: 110, time: 41.134s) loss: 87542.758 
+(epoch: 124, iters: 310, time: 13.310s) loss: 69852.883 
+(epoch: 124, iters: 510, time: 13.970s) loss: 113284.812 
+(epoch: 124, iters: 710, time: 14.086s) loss: 123103.297 
+(epoch: 124, iters: 910, time: 13.541s) loss: 153949.219 
+lr:0.000050 PSNR: 15.038, DICE: 40.048, SSIM: 73.099, overall: 62.779
+(epoch: 125, iters: 80, time: 43.935s) loss: 186339.281 
+(epoch: 125, iters: 280, time: 14.111s) loss: 90272.242 
+(epoch: 125, iters: 480, time: 14.575s) loss: 151160.250 
+(epoch: 125, iters: 680, time: 13.851s) loss: 119556.281 
+(epoch: 125, iters: 880, time: 13.111s) loss: 119200.312 
+lr:0.000050 PSNR: 15.114, DICE: 38.583, SSIM: 73.384, overall: 62.512
+(epoch: 126, iters: 50, time: 50.183s) loss: 68955.383 
+(epoch: 126, iters: 250, time: 18.993s) loss: 83745.102 
+(epoch: 126, iters: 450, time: 19.408s) loss: 87724.141 
+(epoch: 126, iters: 650, time: 19.196s) loss: 78100.930 
+(epoch: 126, iters: 850, time: 19.368s) loss: 93820.422 
+lr:0.000050 PSNR: 15.113, DICE: 39.232, SSIM: 73.375, overall: 62.725
+(epoch: 127, iters: 20, time: 57.578s) loss: 99417.578 
+(epoch: 127, iters: 220, time: 16.935s) loss: 106522.312 
+(epoch: 127, iters: 420, time: 14.542s) loss: 90514.664 
+(epoch: 127, iters: 620, time: 13.475s) loss: 91513.914 
+(epoch: 127, iters: 820, time: 13.421s) loss: 94304.219 
+(epoch: 127, iters: 1020, time: 13.760s) loss: 108328.555 
+lr:0.000050 PSNR: 15.037, DICE: 39.404, SSIM: 73.136, overall: 62.575
+(epoch: 128, iters: 190, time: 45.110s) loss: 74429.578 
+(epoch: 128, iters: 390, time: 15.099s) loss: 100819.273 
+(epoch: 128, iters: 590, time: 13.600s) loss: 99233.445 
+(epoch: 128, iters: 790, time: 13.293s) loss: 92481.867 
+(epoch: 128, iters: 990, time: 14.845s) loss: 73172.727 
+lr:0.000050 PSNR: 15.140, DICE: 39.977, SSIM: 73.633, overall: 63.104
+(epoch: 129, iters: 160, time: 43.672s) loss: 109531.961 
+(epoch: 129, iters: 360, time: 14.090s) loss: 88393.484 
+(epoch: 129, iters: 560, time: 13.633s) loss: 91113.781 
+(epoch: 129, iters: 760, time: 13.786s) loss: 87249.344 
+(epoch: 129, iters: 960, time: 14.045s) loss: 81516.969 
+lr:0.000050 PSNR: 14.945, DICE: 38.563, SSIM: 73.043, overall: 62.111
+(epoch: 130, iters: 130, time: 41.623s) loss: 71200.383 
+(epoch: 130, iters: 330, time: 14.589s) loss: 73836.156 
+(epoch: 130, iters: 530, time: 13.362s) loss: 105354.109 
+(epoch: 130, iters: 730, time: 14.325s) loss: 154835.328 
+(epoch: 130, iters: 930, time: 14.832s) loss: 75695.414 
+lr:0.000050 PSNR: 15.037, DICE: 38.720, SSIM: 73.086, overall: 62.330
+(epoch: 131, iters: 100, time: 42.457s) loss: 114567.820 
+(epoch: 131, iters: 300, time: 14.537s) loss: 84448.586 
+(epoch: 131, iters: 500, time: 13.134s) loss: 133931.656 
+(epoch: 131, iters: 700, time: 14.556s) loss: 70133.195 
+(epoch: 131, iters: 900, time: 13.941s) loss: 107043.336 
+lr:0.000050 PSNR: 15.188, DICE: 37.817, SSIM: 73.632, overall: 62.462
+(epoch: 132, iters: 70, time: 41.278s) loss: 103224.656 
+(epoch: 132, iters: 270, time: 14.076s) loss: 90026.859 
+(epoch: 132, iters: 470, time: 13.246s) loss: 114030.047 
+(epoch: 132, iters: 670, time: 14.391s) loss: 170840.281 
+(epoch: 132, iters: 870, time: 13.485s) loss: 129403.320 
+lr:0.000050 PSNR: 15.130, DICE: 39.837, SSIM: 73.597, overall: 63.028
+(epoch: 133, iters: 40, time: 43.684s) loss: 139514.688 
+(epoch: 133, iters: 240, time: 14.425s) loss: 97721.781 
+(epoch: 133, iters: 440, time: 12.947s) loss: 115157.578 
+(epoch: 133, iters: 640, time: 14.621s) loss: 106599.883 
+(epoch: 133, iters: 840, time: 12.581s) loss: 140179.000 
+lr:0.000050 PSNR: 15.064, DICE: 38.094, SSIM: 73.331, overall: 62.248
+(epoch: 134, iters: 10, time: 43.687s) loss: 86309.250 
+(epoch: 134, iters: 210, time: 14.504s) loss: 99478.445 
+(epoch: 134, iters: 410, time: 13.972s) loss: 105785.414 
+(epoch: 134, iters: 610, time: 14.700s) loss: 87526.805 
+(epoch: 134, iters: 810, time: 12.933s) loss: 105020.141 
+(epoch: 134, iters: 1010, time: 13.929s) loss: 150726.594 
+lr:0.000050 PSNR: 15.128, DICE: 39.613, SSIM: 73.563, overall: 62.938
+(epoch: 135, iters: 180, time: 43.269s) loss: 124559.891 
+(epoch: 135, iters: 380, time: 13.626s) loss: 101196.898 
+(epoch: 135, iters: 580, time: 14.561s) loss: 95901.750 
+(epoch: 135, iters: 780, time: 14.114s) loss: 107503.594 
+(epoch: 135, iters: 980, time: 15.377s) loss: 91497.430 
+lr:0.000050 PSNR: 15.162, DICE: 40.280, SSIM: 73.374, overall: 63.154
+(epoch: 136, iters: 150, time: 41.324s) loss: 69343.219 
+(epoch: 136, iters: 350, time: 14.534s) loss: 104614.141 
+(epoch: 136, iters: 550, time: 12.401s) loss: 129174.258 
+(epoch: 136, iters: 750, time: 14.447s) loss: 92835.812 
+(epoch: 136, iters: 950, time: 13.380s) loss: 69198.000 
+lr:0.000050 PSNR: 15.105, DICE: 39.854, SSIM: 73.386, overall: 62.921
+(epoch: 137, iters: 120, time: 42.051s) loss: 171928.531 
+(epoch: 137, iters: 320, time: 14.457s) loss: 64187.500 
+(epoch: 137, iters: 520, time: 13.361s) loss: 122952.820 
+(epoch: 137, iters: 720, time: 15.078s) loss: 122403.070 
+(epoch: 137, iters: 920, time: 14.823s) loss: 81715.297 
+lr:0.000050 PSNR: 15.009, DICE: 39.219, SSIM: 73.131, overall: 62.464
+(epoch: 138, iters: 90, time: 42.249s) loss: 75618.328 
+(epoch: 138, iters: 290, time: 15.463s) loss: 113832.414 
+(epoch: 138, iters: 490, time: 13.393s) loss: 96053.023 
+(epoch: 138, iters: 690, time: 14.583s) loss: 73928.406 
+(epoch: 138, iters: 890, time: 12.473s) loss: 88361.930 
+lr:0.000050 PSNR: 14.968, DICE: 42.749, SSIM: 72.997, overall: 63.530
+(epoch: 139, iters: 60, time: 41.101s) loss: 102436.492 
+(epoch: 139, iters: 260, time: 14.586s) loss: 96296.039 
+(epoch: 139, iters: 460, time: 13.225s) loss: 104597.516 
+(epoch: 139, iters: 660, time: 14.321s) loss: 77807.195 
+(epoch: 139, iters: 860, time: 13.513s) loss: 93423.812 
+lr:0.000050 PSNR: 15.174, DICE: 39.297, SSIM: 73.710, overall: 62.959
+(epoch: 140, iters: 30, time: 43.314s) loss: 155703.438 
+(epoch: 140, iters: 230, time: 14.517s) loss: 76064.883 
+(epoch: 140, iters: 430, time: 13.658s) loss: 69821.086 
+(epoch: 140, iters: 630, time: 14.230s) loss: 82171.156 
+(epoch: 140, iters: 830, time: 13.018s) loss: 120778.305 
+(epoch: 140, iters: 1030, time: 15.089s) loss: 73586.055 
+lr:0.000050 PSNR: 15.064, DICE: 39.033, SSIM: 73.283, overall: 62.545
+(epoch: 141, iters: 200, time: 14.180s) loss: 93189.625 
+(epoch: 141, iters: 400, time: 13.436s) loss: 83862.641 
+(epoch: 141, iters: 600, time: 14.285s) loss: 111711.781 
+(epoch: 141, iters: 800, time: 14.257s) loss: 179222.594 
+(epoch: 141, iters: 1000, time: 14.144s) loss: 69667.180 
+lr:0.000050 PSNR: 15.186, DICE: 38.292, SSIM: 73.706, overall: 62.642
+(epoch: 142, iters: 170, time: 43.617s) loss: 87601.477 
+(epoch: 142, iters: 370, time: 14.391s) loss: 124989.672 
+(epoch: 142, iters: 570, time: 14.866s) loss: 128904.398 
+(epoch: 142, iters: 770, time: 13.465s) loss: 94611.547 
+(epoch: 142, iters: 970, time: 15.106s) loss: 96982.633 
+lr:0.000050 PSNR: 15.116, DICE: 38.557, SSIM: 73.399, overall: 62.512
+(epoch: 143, iters: 140, time: 42.905s) loss: 105507.266 
+(epoch: 143, iters: 340, time: 14.161s) loss: 103981.508 
+(epoch: 143, iters: 540, time: 13.414s) loss: 100419.391 
+(epoch: 143, iters: 740, time: 13.393s) loss: 86342.945 
+(epoch: 143, iters: 940, time: 14.358s) loss: 79518.789 
+lr:0.000050 PSNR: 15.066, DICE: 38.942, SSIM: 73.274, overall: 62.515
+(epoch: 144, iters: 110, time: 44.156s) loss: 108516.617 
+(epoch: 144, iters: 310, time: 14.221s) loss: 79538.305 
+(epoch: 144, iters: 510, time: 13.352s) loss: 67163.719 
+(epoch: 144, iters: 710, time: 13.411s) loss: 65071.242 
+(epoch: 144, iters: 910, time: 14.633s) loss: 112659.109 
+lr:0.000050 PSNR: 15.086, DICE: 39.840, SSIM: 73.481, overall: 62.917
+(epoch: 145, iters: 80, time: 41.639s) loss: 88865.016 
+(epoch: 145, iters: 280, time: 13.889s) loss: 130596.984 
+(epoch: 145, iters: 480, time: 14.386s) loss: 143502.016 
+(epoch: 145, iters: 680, time: 13.565s) loss: 77434.633 
+(epoch: 145, iters: 880, time: 14.359s) loss: 71750.164 
+lr:0.000050 PSNR: 15.101, DICE: 39.111, SSIM: 73.079, overall: 62.565
+(epoch: 146, iters: 50, time: 42.316s) loss: 83512.078 
+(epoch: 146, iters: 250, time: 14.339s) loss: 75128.203 
+(epoch: 146, iters: 450, time: 13.607s) loss: 178047.312 
+(epoch: 146, iters: 650, time: 14.080s) loss: 70936.648 
+(epoch: 146, iters: 850, time: 14.648s) loss: 108093.133 
+lr:0.000050 PSNR: 15.171, DICE: 40.286, SSIM: 73.496, overall: 63.212
+(epoch: 147, iters: 20, time: 42.426s) loss: 60812.363 
+(epoch: 147, iters: 220, time: 13.982s) loss: 93379.359 
+(epoch: 147, iters: 420, time: 13.297s) loss: 80741.133 
+(epoch: 147, iters: 620, time: 14.459s) loss: 73348.914 
+(epoch: 147, iters: 820, time: 13.865s) loss: 95972.141 
+(epoch: 147, iters: 1020, time: 14.795s) loss: 76513.062 
+lr:0.000050 PSNR: 15.058, DICE: 39.876, SSIM: 73.429, overall: 62.865
+(epoch: 148, iters: 190, time: 42.572s) loss: 109583.992 
+(epoch: 148, iters: 390, time: 13.831s) loss: 73955.812 
+(epoch: 148, iters: 590, time: 14.169s) loss: 103778.523 
+(epoch: 148, iters: 790, time: 13.395s) loss: 83519.773 
+(epoch: 148, iters: 990, time: 14.082s) loss: 67431.828 
+lr:0.000050 PSNR: 15.153, DICE: 39.787, SSIM: 73.557, overall: 63.037
+(epoch: 149, iters: 160, time: 42.104s) loss: 136982.703 
+(epoch: 149, iters: 360, time: 14.130s) loss: 122989.547 
+(epoch: 149, iters: 560, time: 13.754s) loss: 71320.516 
+(epoch: 149, iters: 760, time: 13.032s) loss: 113171.586 
+(epoch: 149, iters: 960, time: 15.469s) loss: 86005.352 
+lr:0.000050 PSNR: 15.076, DICE: 39.456, SSIM: 73.160, overall: 62.666
+(epoch: 150, iters: 130, time: 41.836s) loss: 80694.898 
+(epoch: 150, iters: 330, time: 14.225s) loss: 98894.766 
+(epoch: 150, iters: 530, time: 13.391s) loss: 85239.922 
+(epoch: 150, iters: 730, time: 13.723s) loss: 80698.266 
+(epoch: 150, iters: 930, time: 14.906s) loss: 72687.609 
+lr:0.000050 PSNR: 15.071, DICE: 38.483, SSIM: 73.400, overall: 62.413
+(epoch: 151, iters: 100, time: 42.255s) loss: 116207.617 
+(epoch: 151, iters: 300, time: 14.633s) loss: 129355.023 
+(epoch: 151, iters: 500, time: 13.707s) loss: 79829.891 
+(epoch: 151, iters: 700, time: 14.497s) loss: 81288.953 
+(epoch: 151, iters: 900, time: 14.229s) loss: 111380.500 
+lr:0.000050 PSNR: 15.204, DICE: 40.460, SSIM: 73.684, overall: 63.388
+(epoch: 152, iters: 70, time: 43.306s) loss: 97085.078 
+(epoch: 152, iters: 270, time: 14.727s) loss: 80852.094 
+(epoch: 152, iters: 470, time: 13.377s) loss: 92387.617 
+(epoch: 152, iters: 670, time: 14.131s) loss: 91767.188 
+(epoch: 152, iters: 870, time: 13.858s) loss: 104437.406 
+lr:0.000050 PSNR: 15.158, DICE: 39.958, SSIM: 73.598, overall: 63.114
+(epoch: 153, iters: 40, time: 42.641s) loss: 127309.953 
+(epoch: 153, iters: 240, time: 14.980s) loss: 102984.547 
+(epoch: 153, iters: 440, time: 13.371s) loss: 162263.500 
+(epoch: 153, iters: 640, time: 15.084s) loss: 85299.805 
+(epoch: 153, iters: 840, time: 13.877s) loss: 130714.594 
+lr:0.000050 PSNR: 15.094, DICE: 39.763, SSIM: 73.491, overall: 62.908
+(epoch: 154, iters: 10, time: 43.242s) loss: 86609.570 
+(epoch: 154, iters: 210, time: 15.205s) loss: 105113.453 
+(epoch: 154, iters: 410, time: 13.178s) loss: 99366.086 
+(epoch: 154, iters: 610, time: 14.827s) loss: 83488.008 
+(epoch: 154, iters: 810, time: 13.742s) loss: 88620.359 
+(epoch: 154, iters: 1010, time: 15.049s) loss: 90030.742 
+lr:0.000050 PSNR: 15.131, DICE: 40.223, SSIM: 73.718, overall: 63.199
+(epoch: 155, iters: 180, time: 43.781s) loss: 152998.500 
+(epoch: 155, iters: 380, time: 13.129s) loss: 127894.922 
+(epoch: 155, iters: 580, time: 14.729s) loss: 72989.227 
+(epoch: 155, iters: 780, time: 13.241s) loss: 150835.828 
+(epoch: 155, iters: 980, time: 14.017s) loss: 94862.812 
+lr:0.000050 PSNR: 15.159, DICE: 40.443, SSIM: 73.653, overall: 63.296
+(epoch: 156, iters: 150, time: 44.997s) loss: 92885.281 
+(epoch: 156, iters: 350, time: 14.046s) loss: 88425.992 
+(epoch: 156, iters: 550, time: 14.099s) loss: 173386.203 
+(epoch: 156, iters: 750, time: 13.483s) loss: 89553.320 
+(epoch: 156, iters: 950, time: 15.121s) loss: 96182.969 
+lr:0.000025 PSNR: 15.151, DICE: 39.578, SSIM: 73.806, overall: 63.047
+(epoch: 157, iters: 120, time: 44.890s) loss: 74773.891 
+(epoch: 157, iters: 320, time: 13.858s) loss: 93618.852 
+(epoch: 157, iters: 520, time: 14.230s) loss: 91860.477 
+(epoch: 157, iters: 720, time: 14.061s) loss: 77336.648 
+(epoch: 157, iters: 920, time: 14.548s) loss: 76144.133 
+lr:0.000025 PSNR: 15.145, DICE: 40.892, SSIM: 73.494, overall: 63.371
+(epoch: 158, iters: 90, time: 42.692s) loss: 76372.484 
+(epoch: 158, iters: 290, time: 14.306s) loss: 70827.602 
+(epoch: 158, iters: 490, time: 13.921s) loss: 92624.445 
+(epoch: 158, iters: 690, time: 13.560s) loss: 75692.266 
+(epoch: 158, iters: 890, time: 15.043s) loss: 103995.516 
+lr:0.000025 PSNR: 15.157, DICE: 39.790, SSIM: 73.805, overall: 63.126
+(epoch: 159, iters: 60, time: 41.912s) loss: 104113.695 
+(epoch: 159, iters: 260, time: 13.796s) loss: 115315.289 
+(epoch: 159, iters: 460, time: 14.479s) loss: 92834.086 
+(epoch: 159, iters: 660, time: 14.758s) loss: 111045.492 
+(epoch: 159, iters: 860, time: 14.811s) loss: 145471.547 
+lr:0.000025 PSNR: 15.152, DICE: 40.323, SSIM: 73.589, overall: 63.224
+(epoch: 160, iters: 30, time: 42.389s) loss: 86856.594 
+(epoch: 160, iters: 230, time: 14.476s) loss: 115593.484 
+(epoch: 160, iters: 430, time: 14.314s) loss: 117578.719 
+(epoch: 160, iters: 630, time: 13.972s) loss: 96380.438 
+(epoch: 160, iters: 830, time: 14.387s) loss: 147500.656 
+(epoch: 160, iters: 1030, time: 14.136s) loss: 85870.789 
+lr:0.000025 PSNR: 15.135, DICE: 40.490, SSIM: 73.630, overall: 63.265
+(epoch: 161, iters: 200, time: 12.989s) loss: 116450.234 
+(epoch: 161, iters: 400, time: 14.829s) loss: 104406.000 
+(epoch: 161, iters: 600, time: 13.779s) loss: 99082.281 
+(epoch: 161, iters: 800, time: 13.942s) loss: 83949.266 
+(epoch: 161, iters: 1000, time: 15.212s) loss: 84499.711 
+lr:0.000025 PSNR: 15.142, DICE: 41.179, SSIM: 73.573, overall: 63.488
+(epoch: 162, iters: 170, time: 42.505s) loss: 86499.344 
+(epoch: 162, iters: 370, time: 14.997s) loss: 131545.312 
+(epoch: 162, iters: 570, time: 13.314s) loss: 73591.297 
+(epoch: 162, iters: 770, time: 14.156s) loss: 106369.828 
+(epoch: 162, iters: 970, time: 14.077s) loss: 60092.504 
+lr:0.000025 PSNR: 15.122, DICE: 39.552, SSIM: 73.658, overall: 62.940
+(epoch: 163, iters: 140, time: 41.939s) loss: 120263.234 
+(epoch: 163, iters: 340, time: 15.026s) loss: 72839.164 
+(epoch: 163, iters: 540, time: 12.906s) loss: 151147.219 
+(epoch: 163, iters: 740, time: 14.765s) loss: 106931.555 
+(epoch: 163, iters: 940, time: 14.434s) loss: 98728.852 
+lr:0.000025 PSNR: 15.164, DICE: 41.004, SSIM: 73.577, overall: 63.467
+(epoch: 164, iters: 110, time: 43.062s) loss: 89766.266 
+(epoch: 164, iters: 310, time: 15.115s) loss: 85958.641 
+(epoch: 164, iters: 510, time: 13.059s) loss: 100191.555 
+(epoch: 164, iters: 710, time: 14.392s) loss: 80045.070 
+(epoch: 164, iters: 910, time: 14.626s) loss: 89146.195 
+lr:0.000025 PSNR: 15.168, DICE: 39.552, SSIM: 73.858, overall: 63.083
+(epoch: 165, iters: 80, time: 42.218s) loss: 59335.797 
+(epoch: 165, iters: 280, time: 15.142s) loss: 92823.250 
+(epoch: 165, iters: 480, time: 12.389s) loss: 75044.266 
+(epoch: 165, iters: 680, time: 14.763s) loss: 127884.391 
+(epoch: 165, iters: 880, time: 13.489s) loss: 63974.242 
+lr:0.000025 PSNR: 15.186, DICE: 40.183, SSIM: 73.739, overall: 63.285
+(epoch: 166, iters: 50, time: 42.511s) loss: 80312.695 
+(epoch: 166, iters: 250, time: 14.811s) loss: 97143.961 
+(epoch: 166, iters: 450, time: 13.421s) loss: 83389.070 
+(epoch: 166, iters: 650, time: 13.441s) loss: 75745.344 
+(epoch: 166, iters: 850, time: 14.223s) loss: 134967.734 
+lr:0.000025 PSNR: 15.205, DICE: 40.528, SSIM: 73.946, overall: 63.499
+(epoch: 167, iters: 20, time: 42.473s) loss: 92201.555 
+(epoch: 167, iters: 220, time: 14.082s) loss: 102976.555 
+(epoch: 167, iters: 420, time: 14.322s) loss: 104837.734 
+(epoch: 167, iters: 620, time: 12.836s) loss: 184164.031 
+(epoch: 167, iters: 820, time: 14.982s) loss: 129497.508 
+(epoch: 167, iters: 1020, time: 14.032s) loss: 71184.094 
+lr:0.000025 PSNR: 15.082, DICE: 39.179, SSIM: 73.401, overall: 62.663
+(epoch: 168, iters: 190, time: 41.789s) loss: 92859.750 
+(epoch: 168, iters: 390, time: 14.675s) loss: 109762.320 
+(epoch: 168, iters: 590, time: 13.577s) loss: 92371.422 
+(epoch: 168, iters: 790, time: 14.130s) loss: 82238.039 
+(epoch: 168, iters: 990, time: 14.102s) loss: 72433.633 
+lr:0.000025 PSNR: 15.165, DICE: 39.360, SSIM: 73.764, overall: 62.983
+(epoch: 169, iters: 160, time: 41.423s) loss: 89681.422 
+(epoch: 169, iters: 360, time: 15.219s) loss: 96118.875 
+(epoch: 169, iters: 560, time: 12.422s) loss: 140345.484 
+(epoch: 169, iters: 760, time: 14.686s) loss: 89659.336 
+(epoch: 169, iters: 960, time: 14.637s) loss: 90339.961 
+lr:0.000025 PSNR: 15.125, DICE: 39.017, SSIM: 73.601, overall: 62.747
+(epoch: 170, iters: 130, time: 40.881s) loss: 156947.109 
+(epoch: 170, iters: 330, time: 14.384s) loss: 105589.375 
+(epoch: 170, iters: 530, time: 13.271s) loss: 96608.414 
+(epoch: 170, iters: 730, time: 13.915s) loss: 96680.508 
+(epoch: 170, iters: 930, time: 15.437s) loss: 119776.711 
+lr:0.000025 PSNR: 15.144, DICE: 39.635, SSIM: 73.615, overall: 62.989
+(epoch: 171, iters: 100, time: 42.247s) loss: 124609.508 
+(epoch: 171, iters: 300, time: 14.520s) loss: 95150.227 
+(epoch: 171, iters: 500, time: 13.451s) loss: 84115.625 
+(epoch: 171, iters: 700, time: 13.475s) loss: 80813.867 
+(epoch: 171, iters: 900, time: 15.252s) loss: 92552.172 
+lr:0.000025 PSNR: 15.174, DICE: 39.511, SSIM: 73.866, overall: 63.083
+(epoch: 172, iters: 70, time: 41.547s) loss: 109834.102 
+(epoch: 172, iters: 270, time: 14.373s) loss: 126038.391 
+(epoch: 172, iters: 470, time: 14.197s) loss: 122238.000 
+(epoch: 172, iters: 670, time: 13.286s) loss: 64710.855 
+(epoch: 172, iters: 870, time: 14.764s) loss: 74668.086 
+lr:0.000025 PSNR: 15.149, DICE: 40.486, SSIM: 73.568, overall: 63.266
+(epoch: 173, iters: 40, time: 42.325s) loss: 75005.438 
+(epoch: 173, iters: 240, time: 14.697s) loss: 73218.852 
+(epoch: 173, iters: 440, time: 14.486s) loss: 62835.195 
+(epoch: 173, iters: 640, time: 13.749s) loss: 83838.852 
+(epoch: 173, iters: 840, time: 14.628s) loss: 60331.836 
+lr:0.000025 PSNR: 15.128, DICE: 38.944, SSIM: 73.561, overall: 62.715
+(epoch: 174, iters: 10, time: 41.504s) loss: 98264.047 
+(epoch: 174, iters: 210, time: 13.254s) loss: 111321.273 
+(epoch: 174, iters: 410, time: 15.063s) loss: 70109.227 
+(epoch: 174, iters: 610, time: 12.623s) loss: 87168.859 
+(epoch: 174, iters: 810, time: 13.720s) loss: 68216.766 
+(epoch: 174, iters: 1010, time: 14.272s) loss: 105832.750 
+lr:0.000025 PSNR: 15.127, DICE: 39.403, SSIM: 73.564, overall: 62.867
+(epoch: 175, iters: 180, time: 42.154s) loss: 91563.680 
+(epoch: 175, iters: 380, time: 14.778s) loss: 109183.336 
+(epoch: 175, iters: 580, time: 12.984s) loss: 92803.266 
+(epoch: 175, iters: 780, time: 14.752s) loss: 96566.484 
+(epoch: 175, iters: 980, time: 14.038s) loss: 81395.734 
+lr:0.000025 PSNR: 15.179, DICE: 40.634, SSIM: 73.709, overall: 63.413
+(epoch: 176, iters: 150, time: 43.462s) loss: 86104.961 
+(epoch: 176, iters: 350, time: 14.113s) loss: 66939.719 
+(epoch: 176, iters: 550, time: 14.044s) loss: 136749.766 
+(epoch: 176, iters: 750, time: 13.431s) loss: 121587.391 
+(epoch: 176, iters: 950, time: 14.786s) loss: 68125.742 
+lr:0.000025 PSNR: 15.154, DICE: 40.073, SSIM: 73.590, overall: 63.145
+(epoch: 177, iters: 120, time: 42.754s) loss: 78513.000 
+(epoch: 177, iters: 320, time: 14.449s) loss: 96945.719 
+(epoch: 177, iters: 520, time: 13.708s) loss: 66178.484 
+(epoch: 177, iters: 720, time: 13.303s) loss: 63481.098 
+(epoch: 177, iters: 920, time: 14.659s) loss: 100428.281 
+lr:0.000025 PSNR: 15.152, DICE: 39.980, SSIM: 73.690, overall: 63.144
+(epoch: 178, iters: 90, time: 43.106s) loss: 158497.469 
+(epoch: 178, iters: 290, time: 14.543s) loss: 155767.734 
+(epoch: 178, iters: 490, time: 13.869s) loss: 70965.898 
+(epoch: 178, iters: 690, time: 13.611s) loss: 194209.875 
+(epoch: 178, iters: 890, time: 14.636s) loss: 114184.039 
+lr:0.000025 PSNR: 15.155, DICE: 39.877, SSIM: 73.794, overall: 63.149
+(epoch: 179, iters: 60, time: 42.594s) loss: 76125.852 
+(epoch: 179, iters: 260, time: 14.033s) loss: 61586.070 
+(epoch: 179, iters: 460, time: 14.148s) loss: 161261.531 
+(epoch: 179, iters: 660, time: 13.328s) loss: 80365.711 
+(epoch: 179, iters: 860, time: 14.159s) loss: 66963.664 
+lr:0.000025 PSNR: 15.132, DICE: 40.035, SSIM: 73.652, overall: 63.115
+(epoch: 180, iters: 30, time: 43.814s) loss: 95798.258 
+(epoch: 180, iters: 230, time: 14.410s) loss: 104747.570 
+(epoch: 180, iters: 430, time: 14.180s) loss: 86433.914 
+(epoch: 180, iters: 630, time: 13.493s) loss: 106110.039 
+(epoch: 180, iters: 830, time: 14.550s) loss: 64869.023 
+(epoch: 180, iters: 1030, time: 14.043s) loss: 132680.688 
+lr:0.000025 PSNR: 15.153, DICE: 40.306, SSIM: 73.556, overall: 63.209
+(epoch: 181, iters: 200, time: 14.192s) loss: 80322.438 
+(epoch: 181, iters: 400, time: 14.035s) loss: 123042.336 
+(epoch: 181, iters: 600, time: 13.496s) loss: 108463.055 
+(epoch: 181, iters: 800, time: 13.928s) loss: 132012.938 
+(epoch: 181, iters: 1000, time: 15.305s) loss: 93196.977 
+lr:0.000025 PSNR: 15.122, DICE: 40.384, SSIM: 73.595, overall: 63.197
+(epoch: 182, iters: 170, time: 41.705s) loss: 119939.031 
+(epoch: 182, iters: 370, time: 14.985s) loss: 74635.492 
+(epoch: 182, iters: 570, time: 12.194s) loss: 78891.930 
+(epoch: 182, iters: 770, time: 14.290s) loss: 110004.383 
+(epoch: 182, iters: 970, time: 14.294s) loss: 76712.406 
+lr:0.000025 PSNR: 15.174, DICE: 40.574, SSIM: 73.697, overall: 63.380
+(epoch: 183, iters: 140, time: 41.701s) loss: 115091.258 
+(epoch: 183, iters: 340, time: 14.478s) loss: 103833.461 
+(epoch: 183, iters: 540, time: 13.915s) loss: 75196.445 
+(epoch: 183, iters: 740, time: 13.661s) loss: 91760.875 
+(epoch: 183, iters: 940, time: 15.603s) loss: 155568.734 
+lr:0.000025 PSNR: 15.127, DICE: 39.428, SSIM: 73.550, overall: 62.870
+(epoch: 184, iters: 110, time: 42.890s) loss: 88208.297 
+(epoch: 184, iters: 310, time: 14.444s) loss: 89344.961 
+(epoch: 184, iters: 510, time: 14.338s) loss: 104982.039 
+(epoch: 184, iters: 710, time: 14.243s) loss: 91469.172 
+(epoch: 184, iters: 910, time: 14.234s) loss: 107994.266 
+lr:0.000025 PSNR: 15.170, DICE: 40.152, SSIM: 73.814, overall: 63.272
+(epoch: 185, iters: 80, time: 42.244s) loss: 64454.816 
+(epoch: 185, iters: 280, time: 14.334s) loss: 81662.016 
+(epoch: 185, iters: 480, time: 14.069s) loss: 74072.148 
+(epoch: 185, iters: 680, time: 13.286s) loss: 82732.484 
+(epoch: 185, iters: 880, time: 14.427s) loss: 73318.164 
+lr:0.000025 PSNR: 15.188, DICE: 40.682, SSIM: 73.872, overall: 63.499
+(epoch: 186, iters: 50, time: 42.677s) loss: 134733.516 
+(epoch: 186, iters: 250, time: 14.287s) loss: 88560.406 
+(epoch: 186, iters: 450, time: 14.153s) loss: 95459.578 
+(epoch: 186, iters: 650, time: 13.995s) loss: 68904.984 
+(epoch: 186, iters: 850, time: 13.871s) loss: 89861.625 
+lr:0.000025 PSNR: 15.072, DICE: 40.253, SSIM: 73.392, overall: 63.001
+(epoch: 187, iters: 20, time: 41.882s) loss: 146977.875 
+(epoch: 187, iters: 220, time: 12.944s) loss: 89832.984 
+(epoch: 187, iters: 420, time: 15.009s) loss: 72272.586 
+(epoch: 187, iters: 620, time: 13.489s) loss: 80126.234 
+(epoch: 187, iters: 820, time: 14.653s) loss: 103336.195 
+(epoch: 187, iters: 1020, time: 14.652s) loss: 93487.602 
+lr:0.000025 PSNR: 15.147, DICE: 40.389, SSIM: 73.561, overall: 63.229
+(epoch: 188, iters: 190, time: 40.287s) loss: 90064.828 
+(epoch: 188, iters: 390, time: 14.516s) loss: 75571.492 
+(epoch: 188, iters: 590, time: 13.052s) loss: 84216.703 
+(epoch: 188, iters: 790, time: 14.744s) loss: 119381.438 
+(epoch: 188, iters: 990, time: 14.954s) loss: 110340.359 
+lr:0.000025 PSNR: 15.175, DICE: 40.589, SSIM: 73.849, overall: 63.438
+(epoch: 189, iters: 160, time: 40.508s) loss: 78194.375 
+(epoch: 189, iters: 360, time: 14.422s) loss: 71148.273 
+(epoch: 189, iters: 560, time: 14.143s) loss: 64967.699 
+(epoch: 189, iters: 760, time: 13.183s) loss: 94481.219 
+(epoch: 189, iters: 960, time: 14.004s) loss: 98077.328 
+lr:0.000025 PSNR: 15.120, DICE: 40.514, SSIM: 73.666, overall: 63.259
+(epoch: 190, iters: 130, time: 42.882s) loss: 179765.328 
+(epoch: 190, iters: 330, time: 14.305s) loss: 78742.859 
+(epoch: 190, iters: 530, time: 14.303s) loss: 155696.328 
+(epoch: 190, iters: 730, time: 14.033s) loss: 149677.797 
+(epoch: 190, iters: 930, time: 14.121s) loss: 84100.930 
+lr:0.000025 PSNR: 15.136, DICE: 39.928, SSIM: 73.740, overall: 63.116
+(epoch: 191, iters: 100, time: 42.584s) loss: 84135.492 
+(epoch: 191, iters: 300, time: 13.509s) loss: 119162.695 
+(epoch: 191, iters: 500, time: 14.431s) loss: 71920.531 
+(epoch: 191, iters: 700, time: 13.883s) loss: 67236.102 
+(epoch: 191, iters: 900, time: 14.674s) loss: 95692.094 
+lr:0.000025 PSNR: 15.127, DICE: 40.369, SSIM: 73.664, overall: 63.224
+(epoch: 192, iters: 70, time: 43.929s) loss: 86949.195 
+(epoch: 192, iters: 270, time: 14.139s) loss: 78987.516 
+(epoch: 192, iters: 470, time: 14.206s) loss: 70495.055 
+(epoch: 192, iters: 670, time: 13.841s) loss: 111681.289 
+(epoch: 192, iters: 870, time: 14.701s) loss: 104419.180 
+lr:0.000025 PSNR: 15.112, DICE: 40.935, SSIM: 73.515, overall: 63.336
+(epoch: 193, iters: 40, time: 40.426s) loss: 119587.094 
+(epoch: 193, iters: 240, time: 12.764s) loss: 103003.867 
+(epoch: 193, iters: 440, time: 15.150s) loss: 86845.016 
+(epoch: 193, iters: 640, time: 13.602s) loss: 98898.195 
+(epoch: 193, iters: 840, time: 13.968s) loss: 81730.117 
+lr:0.000025 PSNR: 15.099, DICE: 40.780, SSIM: 73.500, overall: 63.259
+(epoch: 194, iters: 10, time: 43.422s) loss: 61156.266 
+(epoch: 194, iters: 210, time: 13.559s) loss: 83163.672 
+(epoch: 194, iters: 410, time: 14.398s) loss: 83586.336 
+(epoch: 194, iters: 610, time: 13.394s) loss: 143535.906 
+(epoch: 194, iters: 810, time: 14.520s) loss: 86568.945 
+(epoch: 194, iters: 1010, time: 14.022s) loss: 112349.586 
+lr:0.000025 PSNR: 15.103, DICE: 40.190, SSIM: 73.507, overall: 63.070
+(epoch: 195, iters: 180, time: 41.629s) loss: 90899.773 
+(epoch: 195, iters: 380, time: 14.406s) loss: 87228.328 
+(epoch: 195, iters: 580, time: 14.158s) loss: 107791.750 
+(epoch: 195, iters: 780, time: 13.753s) loss: 68383.258 
+(epoch: 195, iters: 980, time: 14.111s) loss: 82409.273 
+lr:0.000013 PSNR: 15.072, DICE: 39.339, SSIM: 73.618, overall: 62.772
+(epoch: 196, iters: 150, time: 44.174s) loss: 76552.008 
+(epoch: 196, iters: 350, time: 14.508s) loss: 87196.180 
+(epoch: 196, iters: 550, time: 13.939s) loss: 76485.953 
+(epoch: 196, iters: 750, time: 12.948s) loss: 73975.172 
+(epoch: 196, iters: 950, time: 15.303s) loss: 81775.375 
+lr:0.000013 PSNR: 15.139, DICE: 40.113, SSIM: 73.709, overall: 63.173
+(epoch: 197, iters: 120, time: 44.303s) loss: 142876.656 
+(epoch: 197, iters: 320, time: 14.494s) loss: 90061.836 
+(epoch: 197, iters: 520, time: 13.899s) loss: 141800.625 
+(epoch: 197, iters: 720, time: 14.325s) loss: 110999.008 
+(epoch: 197, iters: 920, time: 14.166s) loss: 94324.320 
+lr:0.000013 PSNR: 15.182, DICE: 39.834, SSIM: 73.873, overall: 63.205
+(epoch: 198, iters: 90, time: 41.735s) loss: 64500.180 
+(epoch: 198, iters: 290, time: 14.568s) loss: 89322.875 
+(epoch: 198, iters: 490, time: 13.980s) loss: 110097.414 
+(epoch: 198, iters: 690, time: 14.108s) loss: 97821.859 
+(epoch: 198, iters: 890, time: 15.370s) loss: 87916.672 
+lr:0.000013 PSNR: 15.106, DICE: 39.871, SSIM: 73.642, overall: 63.015
+(epoch: 199, iters: 60, time: 42.920s) loss: 89311.555 
+(epoch: 199, iters: 260, time: 14.395s) loss: 97978.875 
+(epoch: 199, iters: 460, time: 14.015s) loss: 92600.406 
+(epoch: 199, iters: 660, time: 14.036s) loss: 93976.672 
+(epoch: 199, iters: 860, time: 14.782s) loss: 90437.078 
+lr:0.000013 PSNR: 15.187, DICE: 40.017, SSIM: 73.992, overall: 63.314
+(epoch: 200, iters: 30, time: 42.299s) loss: 127050.711 
+(epoch: 200, iters: 230, time: 14.512s) loss: 71365.648 
+(epoch: 200, iters: 430, time: 14.100s) loss: 92077.406 
+(epoch: 200, iters: 630, time: 13.932s) loss: 76531.430 
+(epoch: 200, iters: 830, time: 14.159s) loss: 91292.805 
+(epoch: 200, iters: 1030, time: 13.758s) loss: 88005.750 
+lr:0.000013 PSNR: 15.147, DICE: 40.362, SSIM: 73.842, overall: 63.312
